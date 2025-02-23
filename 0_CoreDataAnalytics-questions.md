@@ -98,6 +98,29 @@ Which type of analytics should you use for each scenario?
 - [ ] **Normalizing a database can improve data integrity.** ✅: `This is correct because normalization helps maintain consistency and accuracy in the database, thereby improving data integrity.`
 - [ ] **Normalization eliminates the need for relationships between tables.** ❌: `This is incorrect because normalization does not eliminate the need for relationships between tables; instead, it organizes data into related tables with defined relationships.`
 
+## Q: Understanding ETL Process Requirements
+
+> To complete the sentence, select the appropriate option in the answer area.
+
+An extract, transform, and load (ETL) process requires:
+
+- [ ] **a matching schema in the data source and the data target.** ❌: `This is incorrect because ETL processes do not necessarily require matching schemas between the source and target.`
+- [ ] **a target data store powerful enough to transform data.** ❌: `This is incorrect because the transformation typically occurs in an intermediate staging area, not necessarily in the target data store.`
+- [ ] **data that is fully processed before being loaded to the target data store.** ✅: `This is correct because ETL processes involve extracting data, transforming it as needed, and then loading the fully processed data into the target data store.`
+- [ ] **that the data target be a relational database.** ❌: `This is incorrect because ETL processes can load data into various types of data stores, not just relational databases.`
+
+## Q: Understanding ELT Process Requirements
+
+> To complete the sentence, select the appropriate option in the answer area.
+
+An extract, load, and transform (ELT) process requires:
+- [ ] **a matching schema in the data source and the data target.** ❌: `This is incorrect because ELT processes do not necessarily require matching schemas between the source and target.`
+- [ ] **a target data store powerful enough to transform data.** ✅: `This is correct because in ELT processes, the transformation occurs after the data is loaded into the target data store, which needs to be powerful enough to handle the transformation.`
+- [ ] **data that is fully processed before being loaded to the target data store.** ❌: `This is incorrect because in ELT processes, data is loaded into the target data store before being transformed.`
+- [ ] **that the data target be a relational database.** ❌: `This is incorrect because ELT processes can load data into various types of data stores, not just relational databases.`
+
+
+
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
   <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
