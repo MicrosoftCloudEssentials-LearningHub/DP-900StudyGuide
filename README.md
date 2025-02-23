@@ -10,11 +10,13 @@ Last updated: 2025-01-16
 ----------
 
 > [!NOTE]
-> The questions and answers provided in this study guide are for practice purposes only and are not official practice questions. They are intended to help you prepare for the [AI-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900). For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification).
+> The questions and answers provided in this study guide are for practice purposes only and are not official practice questions. They are intended to help you prepare for the [DP-900 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-900). For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification).
 
 ## Content
 
-
+- [Core Data Concepts and Analytics Workload on Azure](./0_CoreDataAnalytics-questions.md)
+- [Relational Data on Azure](./1_RelationalData.md)
+- [Non-Relational Data on Azure](./2_nonRelationalData.md)
 
 ## Skills measured
 
