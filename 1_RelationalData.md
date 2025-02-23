@@ -26,6 +26,15 @@ Last updated: 2025-01-16
 
 </details>
 
+
+## Q: Understanding SQL Query Types
+
+> For each of the following statements about SQL query types, select if the statement is correct.
+
+- [ ] **A SELECT query can retrieve multiple columns from a table at once.** ✅: `This is correct because a SELECT query can specify multiple columns in its column list to retrieve several pieces of information from a table.`
+- [ ] **An INSERT query can add multiple rows to a table in one execution.** ✅: `This is correct because an INSERT query can be used with multiple value sets to add several rows to a table in a single execution.`
+- [ ] **A DELETE query removes all rows from a table without deleting its structure.** ❌: `This is incorrect because a DELETE query removes rows based on a condition but does not remove all rows without deleting the table structure; the TRUNCATE query is used for that purpose.`
+
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
   <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
