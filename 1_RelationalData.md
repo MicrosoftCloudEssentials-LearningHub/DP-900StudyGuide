@@ -26,6 +26,19 @@ Last updated: 2025-01-16
 
 </details>
 
+> [!TIP]
+> Types of functions in SQL:
+
+| Type of Function       | Description                                                                 | Examples                          |
+|------------------------|-----------------------------------------------------------------------------|-----------------------------------|
+| Aggregate Functions    | Perform a calculation on a set of values and return a single value.         | `MAX`, `MIN`, `SUM`, `AVG`, `COUNT` |
+| Scalar Functions       | Return a single value based on the input value.                             | `UPPER`, `LOWER`, `ROUND`, `LEN`  |
+| String Functions       | Perform operations on string values and return a string or numeric value.   | `CONCAT`, `SUBSTRING`, `REPLACE`, `TRIM` |
+| Date Functions         | Perform operations on date and time values and return a date, time, or numeric value. | `GETDATE`, `DATEADD`, `DATEDIFF`, `FORMAT` |
+| Numeric Functions      | Perform operations on numeric values and return a numeric value.            | `ABS`, `CEILING`, `FLOOR`, `POWER` |
+| Conversion Functions   | Convert a value from one data type to another.                              | `CAST`, `CONVERT`, `PARSE`        |
+| Window Functions       | Perform calculations across a set of table rows that are related to the current row. | `ROW_NUMBER`, `RANK`, `DENSE_RANK`, `NTILE` |
+| JSON Functions         | Perform operations on JSON data and return JSON or scalar values.           | `JSON_VALUE`, `JSON_QUERY`, `JSON_MODIFY` |
 
 > [!TIP]
 > Database management systems (DBMS) concepts:
@@ -139,7 +152,6 @@ A stored procedure:
 - [ ] **COMMIT** ❌: `This is incorrect because COMMIT is a Transaction Control Language (TCL) statement used to save all changes made during the current transaction.`
 - [ ] **CREATE** ✅: `This is correct because CREATE is a Data Definition Language (DDL) statement used to create database objects such as tables, indexes, and schemas.`
 
-
 ## Q: Understanding Data Control Language (DCL)
 
 > Which statement is an example of Data Control Language (DCL)?
@@ -202,6 +214,33 @@ A stored procedure:
 - [ ] **View** ❌: `This is incorrect because a view is a virtual table based on the result set of an SQL query, not one that stores data in rows and columns.`
 - [ ] **Scalar Function** ❌: `This is incorrect because a scalar function returns a single value and is used for calculations or operations on data, not one that stores data in rows and columns.`
 - [ ] **Table** ✅: `This is correct because a table is a database object that stores data in rows and columns, forming the basic structure of a relational database.`
+
+## Q: Understanding Aggregate Functions
+
+> For each of the following statements about aggregate functions, select if the statement is correct.
+
+- [ ] **Aggregate functions include functions like UPPER and LOWER.** ❌: `This is incorrect because UPPER and LOWER are scalar functions, not aggregate functions.`
+- [ ] **Aggregate functions can be used to concatenate strings.** ❌: `This is incorrect because concatenating strings is typically done using string functions like CONCAT, not aggregate functions.`
+- [ ] **Aggregate functions are used to perform operations on date and time values.** ❌: `This is incorrect because operations on date and time values are typically done using date functions, not aggregate functions.`
+- [ ] **Aggregate functions perform a calculation on a set of values and return a single value.** ✅: `This is correct because aggregate functions like MAX, MIN, SUM, AVG, and COUNT perform calculations on a set of values and return a single value.`
+
+## Q: Understanding Scalar Functions
+
+> For each of the following statements about scalar functions, select if the statement is correct.
+
+- [ ] **Scalar functions are used to perform calculations across a set of table rows.** ❌: `This is incorrect because calculations across a set of table rows are typically done using window functions, not scalar functions.`
+- [ ] **Scalar functions include functions like SUM and AVG.** ❌: `This is incorrect because SUM and AVG are aggregate functions, not scalar functions.`
+- [ ] **Scalar functions return a single value based on the input value.** ✅: `This is correct because scalar functions like UPPER, LOWER, ROUND, and LEN return a single value based on the input value.`
+- [ ] **Scalar functions can be used to perform operations on string values.** ✅: `This is correct because scalar functions like UPPER and LOWER perform operations on string values.`
+
+## Q: Understanding Date Functions
+
+> For each of the following statements about date functions, select if the statement is correct.
+
+- [ ] **Date functions are used to convert a value from one data type to another.** ❌: `This is incorrect because converting a value from one data type to another is typically done using conversion functions like CAST and CONVERT.`
+- [ ] **Date functions include functions like CONCAT and SUBSTRING.** ❌: `This is incorrect because CONCAT and SUBSTRING are string functions, not date functions.`
+- [ ] **Date functions perform operations on date and time values and return a date, time, or numeric value.** ✅: `This is correct because date functions like GETDATE, DATEADD, DATEDIFF, and FORMAT perform operations on date and time values and return a date, time, or numeric value.`
+- [ ] **Date functions can be used to calculate the difference between two dates.** ✅: `This is correct because date functions like DATEDIFF can be used to calculate the difference between two dates.`
 
 
 <div align="center">
