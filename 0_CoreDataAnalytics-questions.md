@@ -274,7 +274,7 @@ Non-Relational Databases:
 | Online Analytical Processing (OLAP) | Involves performing complex queries and multidimensional analysis on large volumes of historical data. It is used for business intelligence, decision support, and data mining. OLAP systems are optimized for read-heavy operations and provide fast query performance. |
 | Online Transaction Processing (OLTP) | Involves managing and processing high volumes of short, atomic transactions. OLTP systems are optimized for write-heavy operations and ensure data integrity and consistency. They are used for applications like online banking, order entry, and retail sales. |
 
-## Q: Understanding Descriptive Analytics
+## Q1: Understanding Descriptive Analytics
 
 > Descriptive analytics tells you:
 
@@ -283,7 +283,7 @@ Non-Relational Databases:
 - [ ] which actions you can perform to affect outcomes.
 - [ ] why something occurred in the past.
 
-## Q: Understanding Batch Processing
+## Q2: Understanding Batch Processing
 
 > To complete the sentence, choose the correct option from the answer area.
 
@@ -294,7 +294,7 @@ In batch processing:
 - [ ] **tasks must be executed sequentially.** ❌: `This is incorrect because batch processing can be parallelized to improve efficiency, rather than being limited to sequential execution.`
 
 
-## Q: Understanding Predictive Analytics
+## Q3: Understanding Predictive Analytics
 
 > Predictive analytics helps you:
 
@@ -303,7 +303,7 @@ In batch processing:
 - [ ] predict future outcomes. ✅
 - [ ] recommend actions to take.
 
-## Q: Understanding Types of Analytics
+## Q4: Understanding Types of Analytics
 
 > To complete the sentence, select the appropriate option.
 
@@ -316,7 +316,7 @@ Options:
 - [ ] **diagnostic** ✅: `This is correct because diagnostic analytics analyzes data to understand why something happened.`
 
 
-## Q: Understanding Diagnostic Analytics
+## Q5: Understanding Diagnostic Analytics
 
 > Diagnostic analytics is used to:
 
@@ -325,7 +325,7 @@ Options:
 - [ ] predict future outcomes.
 - [ ] recommend actions to take.
 
-## Q: Understanding Cognitive Analytics
+## Q6: Understanding Cognitive Analytics
 
 > To complete the sentence, select the appropriate option.
 
@@ -336,7 +336,7 @@ Analyzing customer service chat logs to provide real-time sentiment analysis is 
 - [ ] **prescriptive** ❌: `This is incorrect because prescriptive analytics provides recommendations for actions based on data analysis.`
 - [ ] **cognitive** ✅: `This is correct because cognitive analytics involves using AI and machine learning to simulate human thought processes and analyze unstructured data.`
 
-## Q: Understanding Prescriptive Analytics
+## Q7: Understanding Prescriptive Analytics
 
 > Prescriptive analytics provides:
 
@@ -345,7 +345,7 @@ Analyzing customer service chat logs to provide real-time sentiment analysis is 
 - [ ] predictions of future outcomes.
 - [ ] recommendations for actions. ✅
 
-## Q: Understanding Types of Analytics
+## Q8: Understanding Types of Analytics
 
 > You are working on a data project and need to choose the appropriate type of analytics for different scenarios. Match each scenario with the correct type of analytics: <br/>
 > - Summarizing past sales data to understand trends. <br/>
@@ -360,7 +360,7 @@ Which type of analytics should you use for each scenario?
 - [ ] Descriptive, Diagnostic, Prescriptive, Predictive ❌: `This is incorrect because the last two analytics types are not correctly matched with the scenarios.`
 - [ ] Descriptive, Diagnostic, Predictive, Prescriptive ✅: `This is correct because Descriptive analytics summarizes past data, Diagnostic analytics analyzes reasons for past events, Predictive analytics forecasts future outcomes, and Prescriptive analytics recommends actions.`
 
-## Q: Understanding Database Normalization
+## Q9: Understanding Database Normalization
 
 > For each of the following statements about database normalization, select if the statement is correct.
 
@@ -368,7 +368,7 @@ Which type of analytics should you use for each scenario?
 - [ ] **Normalizing a database can improve data integrity.** ✅: `This is correct because normalization helps maintain consistency and accuracy in the database, thereby improving data integrity.`
 - [ ] **Normalization eliminates the need for relationships between tables.** ❌: `This is incorrect because normalization does not eliminate the need for relationships between tables; instead, it organizes data into related tables with defined relationships.`
 
-## Q: Understanding ETL Process Requirements
+## Q10: Understanding ETL Process Requirements
 
 ```mermaid
 graph LR
@@ -390,7 +390,7 @@ An extract, transform, and load (ETL) process requires:
 - [ ] **data that is fully processed before being loaded to the target data store.** ✅: `This is correct because ETL processes involve extracting data, transforming it as needed, and then loading the fully processed data into the target data store.`
 - [ ] **that the data target be a relational database.** ❌: `This is incorrect because ETL processes can load data into various types of data stores, not just relational databases.`
 
-## Q: Understanding ELT Process Requirements
+## Q11: Understanding ELT Process Requirements
 
 ```mermaid
 graph LR
@@ -411,7 +411,7 @@ An extract, load, and transform (ELT) process requires:
 - [ ] **data that is fully processed before being loaded to the target data store.** ❌: `This is incorrect because in ELT processes, data is loaded into the target data store before being transformed.`
 - [ ] **that the data target be a relational database.** ❌: `This is incorrect because ELT processes can load data into various types of data stores, not just relational databases.`
 
-## Q: Understanding JSON Structure
+## Q12: Understanding JSON Structure
 
 ```json
 {
@@ -450,7 +450,7 @@ An extract, load, and transform (ELT) process requires:
 - [ ] **The `availability` field is a root object.** ❌: `This is incorrect because "availability" is a nested array within the "product" object, not a root object.`
 
 
-## Q: Understanding Azure Synapse Analytics MPP Engine
+## Q13: Understanding Azure Synapse Analytics MPP Engine
 
 > To complete the sentence, select the appropriate option.
 
@@ -461,42 +461,42 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **redirects client connections across control nodes.** ❌: `This is incorrect because there is typically a single control node that manages client connections and coordinates processing.`
 - [ ] **distributes processing across compute nodes.** ✅: `This is correct because the MPP engine distributes data processing tasks across multiple compute nodes to handle large-scale data workloads efficiently.`
 
-## Q: Understanding Database Types
+## Q14: Understanding Database Types
 
 > Which type of database is best suited for handling large volumes of unstructured or semi-structured data?
 
 - [ ] Relational Database ❌: `This is incorrect because relational databases are best suited for structured data with predefined schemas.`
 - [ ] Non-Relational Database ✅: `This is correct because non-relational databases are designed to handle large volumes of unstructured or semi-structured data.`
 
-## Q: Understanding Database Scalability
+## Q15: Understanding Database Scalability
 
 > Which type of database typically supports horizontal scaling by adding more servers?
 
 - [ ] Relational Database ❌: `This is incorrect because relational databases typically support vertical scaling by adding more power to existing hardware.`
 - [ ] Non-Relational Database ✅: `This is correct because non-relational databases are designed to support horizontal scaling by adding more servers.`
 
-## Q: Understanding Database Schema Flexibility
+## Q16: Understanding Database Schema Flexibility
 
 > Which type of database offers a flexible schema that can easily accommodate changes?
 
 - [ ] Relational Database ❌: `This is incorrect because relational databases have fixed schemas that require changes for modifications.`
 - [ ] Non-Relational Database ✅: `This is correct because non-relational databases offer flexible schemas that can easily accommodate changes.`
 
-## Q: Understanding Transaction Support
+## Q17: Understanding Transaction Support
 
 > Which type of database is typically ACID compliant, ensuring strong data integrity and consistency?
 
 - [ ] Relational Database ✅: `This is correct because relational databases are typically ACID compliant, ensuring strong data integrity and consistency.`
 - [ ] Non-Relational Database ❌: `This is incorrect because non-relational databases may support BASE (Basically Available, Soft state, Eventual consistency) instead of ACID.`
 
-## Q: Understanding Use Cases
+## Q18: Understanding Use Cases
 
 > Which type of database is best suited for applications involving real-time analytics, content management, or IoT data?
 
 - [ ] Relational Database ❌: `This is incorrect because relational databases are best suited for structured data and complex queries.`
 - [ ] Non-Relational Database ✅: `This is correct because non-relational databases are optimized for applications involving real-time analytics, content management, or IoT data.`
 
-## Q: Understanding ELT Process Stages
+## Q19: Understanding ELT Process Stages
 
 > Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process. Where does data processing occur for each stage of the ELT process? Select the appropriate answer.
 
@@ -513,7 +513,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
    - [ ] **The CRM system** ❌: `This is incorrect because the transformation stage does not typically occur in the source system.`
    - [ ] **The data warehouse** ✅: `This is correct because the transformation stage can occur within the data warehouse after the data has been loaded.`
 
-## Q: Understanding ELT Process Stages
+## Q20: Understanding ELT Process Stages
 
 > In an ELT process, where does the transformation of data typically occur?
 
@@ -521,7 +521,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **In an external ETL tool** ❌: `This is incorrect because ELT processes perform transformations within the target data store, not in an external ETL tool.`
 - [ ] **In the target data store** ✅: `This is correct because in an ELT process, the transformation of data typically occurs within the target data store, such as a data warehouse, after the data has been loaded.`
 
-## Q: Understanding ELT Process Stages
+## Q21: Understanding ELT Process Stages
 
 > Which stage of the ELT process involves moving data to the target data store?
 
@@ -529,7 +529,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Transform** ❌: `This is incorrect because the transform stage involves processing and transforming the data after it has been loaded into the target data store.`
 - [ ] **Load** ✅: `This is correct because the load stage involves moving data to the target data store, such as a data warehouse.`
 
-## Q: Understanding ELT Process Stages
+## Q22: Understanding ELT Process Stages
 
 > In an ELT process, which stage is responsible for pulling data from the source system?
 
@@ -537,7 +537,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Transform** ❌: `This is incorrect because the transform stage involves processing and transforming the data after it has been loaded into the target data store.`
 - [ ] **Extract** ✅: `This is correct because the extract stage is responsible for pulling data from the source system, such as a CRM system.`
 
-## Q: Understanding ELT Process Stages
+## Q23: Understanding ELT Process Stages
 
 > Which stage of the ELT process typically occurs within the data warehouse?
 
@@ -545,8 +545,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Load** ❌: `This is incorrect because the load stage involves moving data to the target data store.`
 - [ ] **Transform** ✅: `This is correct because the transform stage typically occurs within the data warehouse after the data has been loaded.`
 
-
-## Q: Choosing the Right Visualization
+## Q24: Choosing the Right Visualization
 
 > You need to display the sales trends over the past year to identify seasonal patterns. Which type of visualization should you use?
 
@@ -555,7 +554,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Treemap** ❌: `This is incorrect because treemaps are used to show proportions within a hierarchy, not trends over time.`
 - [ ] **Line Chart** ✅: `This is correct because line charts are ideal for showing trends over time by connecting data points with a continuous line.`
 
-## Q: Choosing the Right Visualization
+## Q25: Choosing the Right Visualization
 
 > You need to show the distribution of customer ages in your database. Which type of visualization should you use?
 
@@ -564,7 +563,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Gauge Chart** ❌: `This is incorrect because gauge charts are used to display a single value within a range, not distributions of numerical data.`
 - [ ] **Histogram** ✅: `This is correct because histograms are used to represent the distribution of numerical data, showing the frequency of data intervals.`
 
-## Q: Choosing the Right Visualization
+## Q26: Choosing the Right Visualization
 
 > You need to identify the key factors influencing customer satisfaction scores. Which type of visualization should you use?
 
@@ -573,7 +572,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Gauge Chart** ❌: `This is incorrect because gauge charts are used to display a single value within a range, not to identify key factors influencing a metric.`
 - [ ] **Key Influencer** ✅: `This is correct because key influencer visualizations help identify the key factors influencing a particular metric or outcome, such as customer satisfaction scores.`
 
-## Q: Choosing the Right Visualization
+## Q27: Choosing the Right Visualization
 
 > You want to visualize the hierarchical structure of your company's departments and sub-departments. Which type of visualization should you use?
 
@@ -582,8 +581,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Scatter Chart** ❌: `This is incorrect because scatter charts are used to show the relationship between two numeric variables, not hierarchical structures.`
 - [ ] **Treemap** ✅: `This is correct because treemaps are used to display hierarchical data as nested rectangles, showing proportions within a hierarchy.`
 
-
-## Q: Understanding Redundancy Options
+## Q28: Understanding Redundancy Options
 
 > Which Azure storage option replicates data synchronously across three Azure availability zones in the primary region?
 
@@ -592,7 +590,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Read-Access Geo-Redundant Storage (RA-GRS)** ❌: `This is incorrect because RA-GRS replicates data to a secondary region asynchronously, not across multiple availability zones in the primary region.`
 - [ ] **Zone-Redundant Storage (ZRS)** ✅: `This is correct because ZRS replicates data synchronously across three Azure availability zones in the primary region, providing high availability and durability.`
 
-## Q: Understanding Redundancy Options
+## Q29: Understanding Redundancy Options
 
 > Which Azure storage option allows read access to the replicated data in the secondary region during an outage in the primary region?
 
@@ -601,7 +599,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Zone-Redundant Storage (ZRS)** ❌: `This is incorrect because ZRS replicates data across availability zones in the primary region, not to a secondary region.`
 - [ ] **Read-Access Geo-Redundant Storage (RA-GRS)** ✅: `This is correct because RA-GRS replicates data to a secondary region asynchronously and allows read access to the replicated data in the secondary region during an outage in the primary region.`
 
-## Q: Choosing the Right Visualization
+## Q30: Choosing the Right Visualization
 
 > You want to compare the sales performance of different product categories. Which type of visualization should you use?
 
@@ -610,7 +608,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Map** ❌: `This is incorrect because maps are used to visualize data geographically, not for comparing categories.`
 - [ ] **Bar Chart** ✅: `This is correct because bar charts are useful for comparing different categories by representing data with rectangular bars.`
 
-## Q: Understanding Redundancy Options
+## Q31: Understanding Redundancy Options
 
 > Which Azure storage option replicates data synchronously within a single data center in the primary region?
 
@@ -619,7 +617,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Read-Access Geo-Redundant Storage (RA-GRS)** ❌: `This is incorrect because RA-GRS replicates data to a secondary region asynchronously, not within a single data center.`
 - [ ] **Locally-Redundant Storage (LRS)** ✅: `This is correct because LRS replicates data synchronously within a single data center in the primary region, offering a lower-cost option with moderate availability and durability.`
 
-## Q: Understanding PaaS Database Offerings
+## Q32: Understanding PaaS Database Offerings
 
 > For each of the following statements about PaaS database offerings in Azure, select Yes if the statement is true. Otherwise, select No.
 
@@ -633,7 +631,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
    - [ ] Yes ❌: `This is incorrect because PaaS abstracts away the underlying hardware infrastructure, which is managed by the service provider.`
    - [ ] No ✅: `This is correct because PaaS database offerings do not require users to manage the underlying hardware infrastructure.`
 
-## Q: Understanding PaaS and IaaS Database Offerings
+## Q33: Understanding PaaS and IaaS Database Offerings
 
 > For each of the following statements about PaaS and IaaS database offerings in Azure, select Yes if the statement is true. Otherwise, select No.
 
@@ -647,7 +645,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
    - [ ] Yes ❌: `This is incorrect because not all PaaS database offerings support the ability to pause and resume to reduce costs.`
    - [ ] No ✅: `This is correct because only certain PaaS database offerings have the capability to be paused to reduce costs.`
 
-## Q: Understanding Azure Resource Manager Templates
+## Q34: Understanding Azure Resource Manager Templates
 
 > For each of the following statements about Azure Resource Manager templates, select if the statement is correct.
 
@@ -656,7 +654,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Azure Resource Manager templates can be used to deploy resources in a consistent and repeatable manner.** ✅: `This is correct because Azure Resource Manager templates allow for consistent and repeatable deployments of Azure resources.`
 - [ ] **Azure Resource Manager templates provide a declarative syntax for defining Azure resources.** ✅: `This is correct because Azure Resource Manager templates use a declarative syntax to define the infrastructure and configuration of Azure resources.`
 
-## Q: Understanding IaaS Database Offerings
+## Q35: Understanding IaaS Database Offerings
 
 > For each of the following statements about IaaS database offerings in Azure, select Yes if the statement is true. Otherwise, select No.
 
@@ -670,7 +668,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
    - [ ] Yes ❌: `This is incorrect because IaaS is generally more cost-effective for long-term, stable workloads rather than short-term projects with variable workloads.`
    - [ ] No ✅: `This is correct because IaaS is typically more cost-effective for long-term, stable workloads, while PaaS may be more suitable for short-term projects with variable workloads.`
 
-## Q: Understanding Data Warehousing
+## Q36: Understanding Data Warehousing
 
 > Which of the following is a primary purpose of a data warehouse?
 
@@ -679,7 +677,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Enforcing data integrity constraints in OLTP systems** ❌: `This is incorrect because data warehouses are used for OLAP (Online Analytical Processing), not for enforcing data integrity constraints in OLTP (Online Transaction Processing) systems.`
 - [ ] **Performing complex queries and analysis on large datasets** ✅: `This is correct because data warehouses are optimized for performing complex queries and analysis on large datasets.`
 
-## Q: Understanding Data Lakes
+## Q37: Understanding Data Lakes
 
 > Which of the following best describes a data lake?
 
@@ -688,7 +686,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **A system for managing relational databases** ❌: `This is incorrect because data lakes are not specifically for managing relational databases; they handle a variety of data types.`
 - [ ] **A centralized repository that allows you to store all your structured and unstructured data at any scale** ✅: `This is correct because a data lake is a centralized repository that allows you to store all your structured and unstructured data at any scale.`
 
-## Q: Understanding ETL Processes
+## Q38: Understanding ETL Processes
 
 > In an ETL process, which stage involves transforming the data into a suitable format for analysis?
 
@@ -697,7 +695,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Query** ❌: `This is incorrect because querying is not a stage in the ETL process; it is performed after the data is loaded.`
 - [ ] **Transform** ✅: `This is correct because the transform stage involves converting the extracted data into a suitable format for analysis.`
 
-## Q: Understanding Azure Resource Manager Templates
+## Q39: Understanding Azure Resource Manager Templates
 
 > For each of the following statements about Azure Resource Manager templates, select if the statement is correct.
 
@@ -706,7 +704,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Azure Resource Manager templates support parameterization to allow for flexible deployments.** ✅: `This is correct because Azure Resource Manager templates support parameterization, allowing for flexible and reusable deployments.`
 - [ ] **Azure Resource Manager templates can be used to deploy both infrastructure and application code.** ✅: `This is correct because Azure Resource Manager templates can be used to deploy infrastructure as well as application code.`
 
-## Q: Understanding Data Governance
+## Q40: Understanding Data Governance
 
 > Which of the following is a key component of data governance?
 
@@ -715,7 +713,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Data backup and recovery** ❌: `This is incorrect because data backup and recovery are part of data management, not specifically data governance.`
 - [ ] **Data quality management** ✅: `This is correct because data quality management is a key component of data governance, ensuring that data is accurate, consistent, and reliable.`
 
-## Q: Understanding Data Integration
+## Q41: Understanding Data Integration
 
 > Which of the following best describes data integration?
 
@@ -724,7 +722,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **The process of querying data from a single source** ❌: `This is incorrect because data integration involves multiple data sources, not just querying from a single source.`
 - [ ] **The process of combining data from different sources to provide a unified view** ✅: `This is correct because data integration involves combining data from different sources to provide a unified view.`
 
-## Q: Understanding Azure Resource Manager Templates
+## Q42: Understanding Azure Resource Manager Templates
 
 > For each of the following statements about Azure Resource Manager templates, select if the statement is correct.
 
@@ -733,7 +731,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Azure Resource Manager templates can be used to automate the scaling of Azure resources based on demand.** ✅: `This is correct because Azure Resource Manager templates can include configurations for autoscaling Azure resources based on demand.`
 - [ ] **Azure Resource Manager templates allow for the deployment of resources across multiple regions.** ✅: `This is correct because Azure Resource Manager templates can be used to deploy resources across multiple regions in a single deployment.`
 
-## Q: Understanding ETL and ELT Processes
+## Q43: Understanding ETL and ELT Processes
 
 > For each of the following statements about ETL and ELT processes, select Yes if the statement is true. Otherwise, select No.
 
@@ -749,9 +747,7 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
    - [ ] No ❌: `This is incorrect because ELT processes do load data before transforming, which can help minimize the time to copy large volumes of data.`
    - [ ] Yes ✅: `This is correct because ELT processes load data into the destination system before transforming it, which can minimize the time it takes to copy large volumes of data.`
 
-Sure! Here are the reviewed and corrected versions of the questions:
-
-## Q: Understanding Azure Service Models
+## Q44: Understanding Azure Service Models
 
 > For each of the following statements about Azure service models, select if the statement is correct.
 
@@ -760,7 +756,7 @@ Sure! Here are the reviewed and corrected versions of the questions:
 - [ ] **PostgreSQL on Azure VMs is an example of Infrastructure as a Service (IaaS).** ✅: `This is correct because PostgreSQL on Azure VMs runs inside a fully managed virtual machine, which is an example of Infrastructure as a Service (IaaS).`
 - [ ] **Azure Database for PostgreSQL is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure Database for PostgreSQL is a fully managed database service, which is an example of Platform as a Service (PaaS).`
 
-## Q: Understanding Azure Service Models
+## Q45: Understanding Azure Service Models
 
 > For each of the following statements about Azure service models, select if the statement is correct.
 
@@ -769,7 +765,7 @@ Sure! Here are the reviewed and corrected versions of the questions:
 - [ ] **Azure SQL Database is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure SQL Database is a fully managed database service, which is an example of Platform as a Service (PaaS).`
 - [ ] **Azure Virtual Machines is an example of Infrastructure as a Service (IaaS).** ✅: `This is correct because Azure Virtual Machines provide virtualized computing resources, which is an example of Infrastructure as a Service (IaaS).`
 
-## Q: Understanding Azure Service Models
+## Q46: Understanding Azure Service Models
 
 > For each of the following statements about Azure service models, select if the statement is correct.
 
@@ -779,7 +775,7 @@ Sure! Here are the reviewed and corrected versions of the questions:
 - [ ] **Azure DevOps is an example of Software as a Service (SaaS).** ✅: `This is correct because Azure DevOps provides development and collaboration tools as a service, which is an example of Software as a Service (SaaS).`
 
 
-## Q: Understanding Azure Resource Manager Templates
+## Q47: Understanding Azure Resource Manager Templates
 
 > For each of the following statements about Azure Resource Manager templates, select if the statement is correct.
 
@@ -788,7 +784,7 @@ Sure! Here are the reviewed and corrected versions of the questions:
 - [ ] **Azure Resource Manager templates can be used to define the infrastructure and configuration of Azure resources.** ✅: `This is correct because Azure Resource Manager templates allow you to define the infrastructure and configuration of Azure resources in a declarative manner.`
 - [ ] **Azure Resource Manager templates support version control and collaboration through integration with source control systems.** ✅: `This is correct because Azure Resource Manager templates can be stored in source control systems, allowing for version control and collaboration.`
 
-## Q: Understanding Azure Service Models
+## Q48: Understanding Azure Service Models
 
 > For each of the following statements about Azure service models, select if the statement is correct.
 
@@ -797,7 +793,7 @@ Sure! Here are the reviewed and corrected versions of the questions:
 - [ ] **Azure Synapse Analytics is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure Synapse Analytics is a fully managed analytics service, which is an example of Platform as a Service (PaaS).`
 - [ ] **Azure Active Directory is an example of Software as a Service (SaaS).** ✅: `This is correct because Azure Active Directory provides identity and access management as a service, which is an example of Software as a Service (SaaS).`
 
-## Q: Understanding Azure Service Models
+## Q49: Understanding Azure Service Models
 
 > For each of the following statements about Azure service models, select if the statement is correct.
 
@@ -806,7 +802,7 @@ Sure! Here are the reviewed and corrected versions of the questions:
 - [ ] **Azure Cosmos DB is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure Cosmos DB is a fully managed NoSQL database service, which is an example of Platform as a Service (PaaS).`
 - [ ] **Azure Virtual Network is an example of Infrastructure as a Service (IaaS).** ✅: `This is correct because Azure Virtual Network provides networking capabilities, which is an example of Infrastructure as a Service (IaaS).`
 
-## Q: Understanding Azure SQL Managed Instance
+## Q50: Understanding Azure SQL Managed Instance
 
 > For each of the following statements about Azure SQL Managed Instance, select Yes if the statement is true. Otherwise, select No.
 
@@ -820,7 +816,7 @@ Sure! Here are the reviewed and corrected versions of the questions:
    - [ ] Yes ❌: `This is incorrect because Azure SQL Database is not fully compatible with all features of on-premises SQL Server instances.`
    - [ ] No ✅: `This is correct because Azure SQL Database may not support all features available in on-premises SQL Server instances.`
 
-## Q: Understanding Azure Resource Manager Templates
+## Q51: Understanding Azure Resource Manager Templates
 
 > For each of the following statements about Azure Resource Manager templates, select if the statement is correct.
 
@@ -829,7 +825,7 @@ Sure! Here are the reviewed and corrected versions of the questions:
 - [ ] **You can use an Azure Resource Manager template to control which services and features administrators and developers can deploy from the Azure portal.** ❌: `This is incorrect because Azure Resource Manager templates are used for resource deployment, not for controlling access to services and features.`
 - [ ] **You can use an Azure Resource Manager template to automate the creation of an interdependent group of Azure resources in a repeatable way.** ✅: `This is correct because Azure Resource Manager templates allow you to define and automate the deployment of an interdependent group of Azure resources in a repeatable manner.`
 
-## Q: Understanding Azure SQL Managed Instance
+## Q52: Understanding Azure SQL Managed Instance
 
 > For each of the following statements about Azure SQL Managed Instance, select Yes if the statement is true. Otherwise, select No.
 
@@ -845,7 +841,7 @@ Sure! Here are the reviewed and corrected versions of the questions:
    - [ ] Yes ✅: `This is correct because Azure SQL Managed Instance supports in-database machine learning with R and Python.`
    - [ ] No ❌: `This is incorrect because Azure SQL Managed Instance does support in-database machine learning with R and Python.`
 
-## Q: Understanding Azure SQL Database
+## Q53: Understanding Azure SQL Database
 
 > For each of the following statements about Azure SQL Database, select Yes if the statement is true. Otherwise, select No.
 
@@ -861,7 +857,7 @@ Sure! Here are the reviewed and corrected versions of the questions:
    - [ ] Yes ❌: `This is incorrect because Azure SQL Database handles patching and updates automatically.`
    - [ ] No ✅: `This is correct because Azure SQL Database does not require manual patching and updates.`
 
-## Q: Understanding Elastic Pools
+## Q54: Understanding Elastic Pools
 
 > For each of the following statements about Elastic Pools in Azure SQL Database, select Yes if the statement is true. Otherwise, select No.
 
@@ -874,8 +870,6 @@ Sure! Here are the reviewed and corrected versions of the questions:
 3. Elastic pools can be used to manage and scale multiple databases with varying and unpredictable usage demands.
    - [ ] Yes ✅: `This is correct because elastic pools are designed to manage and scale multiple databases with varying and unpredictable usage demands.`
    - [ ] No ❌: `This is incorrect because elastic pools are intended for managing and scaling databases with varying usage demands.`
-
-
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
