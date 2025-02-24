@@ -25,6 +25,10 @@ Last updated: 2025-01-16
 - [Extract, transform, and load (ETL)](https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl)
 - [Azure Storage redundancy](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy)
 - [Use geo-redundancy to design highly available applications](https://learn.microsoft.com/en-us/azure/storage/common/geo-redundant-design)
+- [What is Power BI?](https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-overview)
+- [What is Azure Data Studio?](https://learn.microsoft.com/en-us/azure-data-studio/what-is-azure-data-studio)
+- [Install Azure PowerShell](https://learn.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-0.10.0)
+- [Get started with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli)
 
 </details>
 
@@ -32,6 +36,15 @@ Last updated: 2025-01-16
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
 </details>
+
+> [!TIP]
+> Data Science and Analytics roles: 
+
+| Role            | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| Data Analyst    | Responsible for identifying which business rules must be applied to the data of a company. Analyzes data to provide actionable insights and support decision-making. |
+| Data Engineer   | Designs, builds, and maintains the infrastructure and architecture for data generation, storage, and processing. Ensures data is accessible, reliable, and efficiently processed. |
+| Data Scientist  | Uses advanced analytical techniques, machine learning, and statistical methods to extract insights from data. Develops predictive models and algorithms to solve complex business problems. |
 
 
 > [!TIP]
@@ -202,7 +215,6 @@ Last updated: 2025-01-16
 | Bullet Chart | Displays performance against a target, often used for KPIs. |
 | Sparkline | A small, simple chart that provides a compact visual representation of data trends. |
 
-
 > [!TIP]
 > Relational and Non Relational critieria:
 
@@ -231,6 +243,36 @@ Non-Relational Databases:
 | **Performance**                 | Optimized for complex queries and transactions                 | Optimized for large volumes of data and high-speed read/write operations |
 | **Consistency**                 | Strong consistency                                             | Eventual consistency (in some cases)                              |
 | **Examples**                    | MySQL, PostgreSQL, Oracle, SQL Server                          | MongoDB, Cassandra, Redis, Couchbase, Neo4j                       |
+
+> [!TIP]
+> Power Bi Services:
+
+| Service                | Purpose                                                                 |
+|------------------------|-------------------------------------------------------------------------|
+| Power BI Desktop       | A Windows desktop application used to connect to, transform, and visualize data. It allows users to `create reports and data models that can be shared with others.` |
+| Power BI Phone App     | A `mobile application for iOS and Android devices` that allows users to view and interact with Power BI reports and dashboards on the go. |
+| Power BI Service       | An online service (SaaS) that allows users to `consume, share, and collaborate` on Power BI reports and dashboards. It provides a cloud-based environment for hosting and managing Power BI content. |
+
+> [!TIP]
+>  Data tools and prpose:
+
+| Tool                          | Purpose                                                                 |
+|-------------------------------|-------------------------------------------------------------------------|
+| Microsoft SQL Server Management Studio (SSMS) | An integrated environment for managing any SQL infrastructure, from SQL Server to Azure SQL Database. It provides tools to `configure, monitor, and administer instances of SQL Server and databases`. |
+| Azure Data Studio             | A lightweight, cross-platform data management and development tool for data professionals. It provides a `modern editor experience with IntelliSense, code snippets, source control integration, and an integrated terminal.` |
+| Azure CLI                     | A cross-platform `command-line tool to connect to Azure and execute administrative commands on Azure resources`. It allows the execution of commands through a terminal using interactive command-line prompts or a script. |
+| Azure PowerShell              | An extension of Windows PowerShell that `allows users to manage Azure resources directly from the command line using cmdlets`. It enables the automation of tasks such as creating and managing virtual machines, storage accounts, and other Azure services. |
+| Microsoft SQL Server Data Tools (SSDT) | A modern development tool for `building SQL Server relational databases`, databases in the cloud with Azure SQL Database, or even large-scale data warehouses using Analysis Services (AS), Integration Services (IS), and Reporting Services (RS). SSDT provides project templates for database design as well as tools for debugging T-SQL code. |
+
+> [!TIP]
+> Types of processing:
+
+| Type of Processing               | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| Stream Processing                | Involves continuous ingestion and processing of data in real-time or near real-time. It allows for immediate analysis and action on data as it arrives. Suitable for applications like real-time analytics, fraud detection, and monitoring. |
+| Batch Processing                 | Involves processing large volumes of data at scheduled intervals or in batches. It is suitable for tasks that do not require immediate processing, such as end-of-day reporting, data transformation, and payroll processing. |
+| Online Analytical Processing (OLAP) | Involves performing complex queries and multidimensional analysis on large volumes of historical data. It is used for business intelligence, decision support, and data mining. OLAP systems are optimized for read-heavy operations and provide fast query performance. |
+| Online Transaction Processing (OLTP) | Involves managing and processing high volumes of short, atomic transactions. OLTP systems are optimized for write-heavy operations and ensure data integrity and consistency. They are used for applications like online banking, order entry, and retail sales. |
 
 ## Q: Understanding Descriptive Analytics
 
@@ -605,6 +647,15 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
    - [ ] Yes ❌: `This is incorrect because not all PaaS database offerings support the ability to pause and resume to reduce costs.`
    - [ ] No ✅: `This is correct because only certain PaaS database offerings have the capability to be paused to reduce costs.`
 
+## Q: Understanding Azure Resource Manager Templates
+
+> For each of the following statements about Azure Resource Manager templates, select if the statement is correct.
+
+- [ ] **Azure Resource Manager templates are used to manage Azure subscriptions and billing.** ❌: `This is incorrect because Azure Resource Manager templates are used for deploying resources, not for managing subscriptions and billing.`
+- [ ] **Azure Resource Manager templates are used to monitor and analyze the performance of Azure resources.** ❌: `This is incorrect because Azure Resource Manager templates are used for deploying resources, not for monitoring and analyzing performance.`
+- [ ] **Azure Resource Manager templates can be used to deploy resources in a consistent and repeatable manner.** ✅: `This is correct because Azure Resource Manager templates allow for consistent and repeatable deployments of Azure resources.`
+- [ ] **Azure Resource Manager templates provide a declarative syntax for defining Azure resources.** ✅: `This is correct because Azure Resource Manager templates use a declarative syntax to define the infrastructure and configuration of Azure resources.`
+
 ## Q: Understanding IaaS Database Offerings
 
 > For each of the following statements about IaaS database offerings in Azure, select Yes if the statement is true. Otherwise, select No.
@@ -646,6 +697,15 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Query** ❌: `This is incorrect because querying is not a stage in the ETL process; it is performed after the data is loaded.`
 - [ ] **Transform** ✅: `This is correct because the transform stage involves converting the extracted data into a suitable format for analysis.`
 
+## Q: Understanding Azure Resource Manager Templates
+
+> For each of the following statements about Azure Resource Manager templates, select if the statement is correct.
+
+- [ ] **Azure Resource Manager templates are used to manage billing and cost allocation in Azure.** ❌: `This is incorrect because Azure Resource Manager templates are used for deploying resources, not for managing billing and cost allocation.`
+- [ ] **Azure Resource Manager templates are used to configure Azure policies and governance.** ❌: `This is incorrect because Azure Resource Manager templates are used for resource deployment, not for configuring policies and governance.`
+- [ ] **Azure Resource Manager templates support parameterization to allow for flexible deployments.** ✅: `This is correct because Azure Resource Manager templates support parameterization, allowing for flexible and reusable deployments.`
+- [ ] **Azure Resource Manager templates can be used to deploy both infrastructure and application code.** ✅: `This is correct because Azure Resource Manager templates can be used to deploy infrastructure as well as application code.`
+
 ## Q: Understanding Data Governance
 
 > Which of the following is a key component of data governance?
@@ -664,6 +724,14 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **The process of querying data from a single source** ❌: `This is incorrect because data integration involves multiple data sources, not just querying from a single source.`
 - [ ] **The process of combining data from different sources to provide a unified view** ✅: `This is correct because data integration involves combining data from different sources to provide a unified view.`
 
+## Q: Understanding Azure Resource Manager Templates
+
+> For each of the following statements about Azure Resource Manager templates, select if the statement is correct.
+
+- [ ] **Azure Resource Manager templates are used to configure network security groups and firewalls.** ❌: `This is incorrect because while Azure Resource Manager templates can deploy network security groups and firewalls, they are not specifically used for configuring them.`
+- [ ] **Azure Resource Manager templates are used to create and manage Azure Active Directory users and groups.** ❌: `This is incorrect because Azure Resource Manager templates are used for deploying resources, not for managing Azure Active Directory users and groups.`
+- [ ] **Azure Resource Manager templates can be used to automate the scaling of Azure resources based on demand.** ✅: `This is correct because Azure Resource Manager templates can include configurations for autoscaling Azure resources based on demand.`
+- [ ] **Azure Resource Manager templates allow for the deployment of resources across multiple regions.** ✅: `This is correct because Azure Resource Manager templates can be used to deploy resources across multiple regions in a single deployment.`
 
 ## Q: Understanding ETL and ELT Processes
 
@@ -710,6 +778,16 @@ Sure! Here are the reviewed and corrected versions of the questions:
 - [ ] **Azure Logic Apps is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure Logic Apps is a fully managed integration service, which is an example of Platform as a Service (PaaS).`
 - [ ] **Azure DevOps is an example of Software as a Service (SaaS).** ✅: `This is correct because Azure DevOps provides development and collaboration tools as a service, which is an example of Software as a Service (SaaS).`
 
+
+## Q: Understanding Azure Resource Manager Templates
+
+> For each of the following statements about Azure Resource Manager templates, select if the statement is correct.
+
+- [ ] **Azure Resource Manager templates are used to manage user access and permissions in Azure.** ❌: `This is incorrect because Azure Resource Manager templates are used for resource deployment, not for managing user access and permissions.`
+- [ ] **Azure Resource Manager templates can be used to monitor the performance of Azure resources.** ❌: `This is incorrect because Azure Resource Manager templates are used for deploying resources, not for monitoring their performance.`
+- [ ] **Azure Resource Manager templates can be used to define the infrastructure and configuration of Azure resources.** ✅: `This is correct because Azure Resource Manager templates allow you to define the infrastructure and configuration of Azure resources in a declarative manner.`
+- [ ] **Azure Resource Manager templates support version control and collaboration through integration with source control systems.** ✅: `This is correct because Azure Resource Manager templates can be stored in source control systems, allowing for version control and collaboration.`
+
 ## Q: Understanding Azure Service Models
 
 > For each of the following statements about Azure service models, select if the statement is correct.
@@ -741,6 +819,15 @@ Sure! Here are the reviewed and corrected versions of the questions:
 3. Azure SQL Database is fully compatible with both on-premises physical instances and virtualized instances of Microsoft SQL Server.
    - [ ] Yes ❌: `This is incorrect because Azure SQL Database is not fully compatible with all features of on-premises SQL Server instances.`
    - [ ] No ✅: `This is correct because Azure SQL Database may not support all features available in on-premises SQL Server instances.`
+
+## Q: Understanding Azure Resource Manager Templates
+
+> For each of the following statements about Azure Resource Manager templates, select if the statement is correct.
+
+- [ ] **You can use an Azure Resource Manager template to apply Azure policies for multi-tenant deployments.** ❌: `This is incorrect because Azure Resource Manager templates are used for deploying resources, not for applying policies.`
+- [ ] **You can use an Azure Resource Manager template to provision Azure subscriptions.** ❌: `This is incorrect because Azure Resource Manager templates are used for deploying resources within a subscription, not for provisioning subscriptions themselves.`
+- [ ] **You can use an Azure Resource Manager template to control which services and features administrators and developers can deploy from the Azure portal.** ❌: `This is incorrect because Azure Resource Manager templates are used for resource deployment, not for controlling access to services and features.`
+- [ ] **You can use an Azure Resource Manager template to automate the creation of an interdependent group of Azure resources in a repeatable way.** ✅: `This is correct because Azure Resource Manager templates allow you to define and automate the deployment of an interdependent group of Azure resources in a repeatable manner.`
 
 ## Q: Understanding Azure SQL Managed Instance
 
@@ -787,6 +874,8 @@ Sure! Here are the reviewed and corrected versions of the questions:
 3. Elastic pools can be used to manage and scale multiple databases with varying and unpredictable usage demands.
    - [ ] Yes ✅: `This is correct because elastic pools are designed to manage and scale multiple databases with varying and unpredictable usage demands.`
    - [ ] No ❌: `This is incorrect because elastic pools are intended for managing and scaling databases with varying usage demands.`
+
+
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
