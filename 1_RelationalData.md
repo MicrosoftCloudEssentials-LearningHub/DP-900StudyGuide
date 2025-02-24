@@ -19,6 +19,10 @@ Last updated: 2025-01-16
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
+- [Describe concepts of relational data](https://learn.microsoft.com/en-us/training/modules/describe-concepts-of-relational-data/)
+- [Microsoft Azure Data Fundamentals: Explore relational data in Azure](https://learn.microsoft.com/en-us/training/paths/azure-data-fundamentals-explore-relational-data/)
+- [Explore fundamental relational data concepts](https://learn.microsoft.com/en-us/training/modules/explore-relational-data-offerings/)
+
 </details>
 
 <details>
@@ -49,6 +53,16 @@ Last updated: 2025-01-16
 | FileTable          | A feature in SQL Server that allows storing files and documents in special tables where each row represents a file or directory, integrating with the Windows file system. |
 | Foreign Key        | A field (or collection of fields) in one table that uniquely identifies a row of another table, creating a relationship between the two tables. It ensures referential integrity within the database. |
 | Stored Procedure   | A precompiled collection of one or more SQL statements stored under a name and processed as a unit, which can be executed with parameters to perform specific tasks within the database. |
+
+> [!TIP]
+> ACID properties:
+
+| Term        | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| Atomicity   | Ensures that all operations within a` transaction are completed successfully`; if not, the transaction is aborted. |
+| Isolation   | Ensures that transactions are executed in isolation from one another, `preventing concurrent transactions from interfering with each other`. |
+| Durability  | Ensures that `once a transaction is committed, it remains permanent`, even in the event of a system failure. |
+| Consistency | Ensures that a transaction brings the `database from one valid state to another`, maintaining database integrity. |
 
 > [!TIP]
 > SQL Language types:
@@ -161,6 +175,15 @@ A stored procedure:
 - [ ] **ROLLBACK** ❌: `This is incorrect because ROLLBACK is a Transaction Control Language (TCL) statement used to undo changes made during the current transaction.`
 - [ ] **GRANT** ✅: `This is correct because GRANT is a Data Control Language (DCL) statement used to provide permissions to users.`
 
+## Q: Understanding Database Types
+
+> For each of the following statements about database types, select if the statement is correct.
+
+- [ ] **Column family databases are suitable for applications requiring complex joins and relationships.** ❌: `This is incorrect because column family databases are not designed for complex joins and relationships; they are optimized for large volumes of structured data.`
+- [ ] **Key-value stores are suitable for applications requiring high-speed transactions and real-time analytics.** ❌: `This is incorrect because key-value stores are designed for simple lookups and do not support high-speed transactions and real-time analytics.`
+- [ ] **Document databases are suitable for applications requiring flexible schemas and semi-structured data.** ✅: `This is correct because document databases provide flexible schemas and are designed to handle semi-structured data.`
+- [ ] **Graph databases are suitable for applications requiring the analysis of social networks and recommendation systems.** ✅: `This is correct because graph databases are ideal for analyzing social networks, recommendation systems, and other applications involving complex relationships.`
+      
 ## Q: Understanding Transaction Control Language (TCL)
 
 > Which statement is an example of Transaction Control Language (TCL)?
@@ -187,6 +210,15 @@ A stored procedure:
 - [ ] **Scalar Function** ❌: `This is incorrect because a scalar function returns a single value and is used for calculations or operations on data, not for improving data retrieval speed.`
 - [ ] **Table** ❌: `This is incorrect because a table is a database object that stores data in rows and columns, not an object that improves data retrieval speed.`
 - [ ] **Index** ✅: `This is correct because an index is a database object that improves the speed of data retrieval operations on a table by providing quick access to rows.`
+
+## Q: Understanding Database Types
+
+> For each of the following statements about database types, select if the statement is correct.
+
+- [ ] **Key-value stores are optimized for complex queries and transactions.** ❌: `This is incorrect because key-value stores are designed for simple lookups and do not support complex queries and transactions.`
+- [ ] **Column family databases are optimized for storing and managing large volumes of structured data.** ✅: `This is correct because column family databases are designed to handle large volumes of structured data efficiently.`
+- [ ] **Document databases are optimized for storing and retrieving semi-structured data.** ✅: `This is correct because document databases are designed to store and retrieve semi-structured data, such as JSON or XML documents.`
+- [ ] **Graph databases are optimized for storing and analyzing relationships between entities.** ✅: `This is correct because graph databases are specifically designed to store and analyze relationships between entities using nodes and edges.`
 
 ## Q: Understanding Database Concepts
 
@@ -215,6 +247,15 @@ A stored procedure:
 - [ ] **Scalar Function** ❌: `This is incorrect because a scalar function returns a single value and is used for calculations or operations on data, not one that stores data in rows and columns.`
 - [ ] **Table** ✅: `This is correct because a table is a database object that stores data in rows and columns, forming the basic structure of a relational database.`
 
+## Q: Understanding Database Types
+
+> For each of the following statements about database types, select if the statement is correct.
+
+- [ ] **Column family databases natively support the analysis of relationships between entities.** ❌: `This is incorrect because column family databases are designed for storing and managing large volumes of structured data, not for analyzing relationships between entities.`
+- [ ] **Document databases natively support the analysis of relationships between entities.** ❌: `This is incorrect because document databases are designed for storing and retrieving semi-structured data, not for analyzing relationships between entities.`
+- [ ] **Key-value stores natively support the analysis of relationships between entities.** ❌: `This is incorrect because key-value stores are designed for simple lookups and do not natively support the analysis of relationships between entities.`
+- [ ] **Graph databases natively support the analysis of relationships between entities.** ✅: `This is correct because graph databases are specifically designed to store and analyze relationships between entities using nodes and edges.`
+
 ## Q: Understanding Aggregate Functions
 
 > For each of the following statements about aggregate functions, select if the statement is correct.
@@ -241,6 +282,20 @@ A stored procedure:
 - [ ] **Date functions include functions like CONCAT and SUBSTRING.** ❌: `This is incorrect because CONCAT and SUBSTRING are string functions, not date functions.`
 - [ ] **Date functions perform operations on date and time values and return a date, time, or numeric value.** ✅: `This is correct because date functions like GETDATE, DATEADD, DATEDIFF, and FORMAT perform operations on date and time values and return a date, time, or numeric value.`
 - [ ] **Date functions can be used to calculate the difference between two dates.** ✅: `This is correct because date functions like DATEDIFF can be used to calculate the difference between two dates.`
+
+## Q: Understanding Database Normalization
+
+> For each of the following statements about database normalization, select Yes if the statement is true. Otherwise, select No.
+
+1. Normalizing a database increases the throughput of writing transactions.
+   - [ ] Yes ❌: `This is incorrect because normalizing a database often involves splitting tables, which can increase the number of write operations and potentially decrease throughput.`
+   - [ ] No ✅: `This is correct because normalizing a database can increase the number of write operations, potentially decreasing throughput.`
+2. Analytics systems are more normalized than transactional systems.
+   - [ ] Yes ❌: `This is incorrect because transactional systems are typically more normalized to ensure data integrity and reduce redundancy, while analytics systems often use denormalized structures for performance.`
+   - [ ] No ✅: `This is correct because transactional systems are typically more normalized, while analytics systems often use denormalized structures for performance.`
+3. Normalizing a database results in queries that require more joins.
+   - [ ] Yes ✅: `This is correct because normalizing a database often involves splitting data into multiple tables, which can result in queries that require more joins to retrieve related data.`
+   - [ ] No ❌: `This is incorrect because normalizing a database often results in queries that require more joins.`
 
 
 <div align="center">
