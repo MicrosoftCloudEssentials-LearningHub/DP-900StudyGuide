@@ -35,6 +35,15 @@ Last updated: 2025-01-16
 
 
 > [!TIP]
+> Data structures examples:
+
+| Data Structure     | Examples                          |
+|--------------------|-----------------------------------|
+| Unstructured       | Text documents, Images, Videos    |
+| Semi-Structured    | JSON, XML, HTML                   |
+| Structured         | SQL Databases, Spreadsheets       |
+
+> [!TIP]
 >  Concepts:
 
 | Concept          | Description                                                                 |
