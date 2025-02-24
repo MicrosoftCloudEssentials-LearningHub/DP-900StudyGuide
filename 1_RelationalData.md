@@ -28,6 +28,30 @@ Last updated: 2025-01-16
 <details>
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
+- [Q1: Understanding Batch Processing Outputs](#q1-understanding-batch-processing-outputs)
+- [Q2: Understanding SQL Query Types](#q2-understanding-sql-query-types)
+- [Q3: Understanding Database Schemas](#q3-understanding-database-schemas)
+- [Q4: Understanding Database Indexes](#q4-understanding-database-indexes)
+- [Q5: Understanding SQL Server Features](#q5-understanding-sql-server-features)
+- [Q6: Understanding Database Relationships](#q6-understanding-database-relationships)
+- [Q7: Understanding Stored Procedures](#q7-understanding-stored-procedures)
+- [Q8: Understanding Data Manipulation Language DML](#q8-understanding-data-manipulation-language-dml)
+- [Q9: Understanding Data Definition Language DDL](#q9-understanding-data-definition-language-ddl)
+- [Q10: Understanding Data Control Language DCL](#q10-understanding-data-control-language-dcl)
+- [Q11: Understanding Database Types](#q11-understanding-database-types)
+- [Q12: Understanding Transaction Control Language TCL](#q12-understanding-transaction-control-language-tcl)
+- [Q13: Understanding Data Query Language DQL](#q13-understanding-data-query-language-dql)
+- [Q14: Understanding Database Concepts](#q14-understanding-database-concepts)
+- [Q15: Understanding Database Types](#q15-understanding-database-types)
+- [Q16: Understanding Database Concepts](#q16-understanding-database-concepts)
+- [Q17: Understanding Database Concepts](#q17-understanding-database-concepts)
+- [Q18: Understanding Database Concepts](#q18-understanding-database-concepts)
+- [Q19: Understanding Database Types](#q19-understanding-database-types)
+- [Q20: Understanding Aggregate Functions](#q20-understanding-aggregate-functions)
+- [Q21: Understanding Scalar Functions](#q21-understanding-scalar-functions)
+- [Q22: Understanding Date Functions](#q22-understanding-date-functions)
+- [Q23: Understanding Database Normalization](#q23-understanding-database-normalization)
+
 </details>
 
 > [!TIP]
