@@ -26,6 +26,17 @@ Last updated: 2025-01-16
 <details>
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
+- [Q1: Understanding NoSQL Database Types](#q1-understanding-nosql-database-types)
+- [Q2: Understanding Azure Cosmos DB APIs](#q2-understanding-azure-cosmos-db-apis)
+- [Q3: Understanding Azure Cosmos DB APIs](#q3-understanding-azure-cosmos-db-apis)
+- [Q4: Understanding CAP Theorem](#q4-understanding-cap-theorem)
+- [Q5: Understanding Azure Cosmos DB APIs](#q5-understanding-azure-cosmos-db-apis)
+- [Q6: Understanding NoSQL Data Models](#q6-understanding-nosql-data-models)
+- [Q7: Understanding NoSQL Use Cases](#q7-understanding-nosql-use-cases)
+- [Q8: Understanding NoSQL Scalability](#q8-understanding-nosql-scalability)
+- [Q9: Understanding Azure Cosmos DB APIs](#q9-understanding-azure-cosmos-db-apis)
+- [Q10: Understanding Azure Cosmos DB APIs](#q10-understanding-azure-cosmos-db-apis)
+
 </details>
 
 > [!TIP]
