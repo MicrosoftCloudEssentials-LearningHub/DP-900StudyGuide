@@ -38,6 +38,24 @@ Last updated: 2025-01-16
 | MongoDB    | An API that provides wire protocol compatibility with MongoDB, allowing you to use existing MongoDB drivers and tools. Ideal for applications already using MongoDB. |
 | Table      | An API that provides key-value storage with a schemaless design, compatible with Azure Table Storage. Suitable for applications that need a simple, scalable, and cost-effective storage solution. |
 
+> [!TIP]
+> CAP means:
+
+The CAP theorem, also known as Brewer's theorem, states that in a distributed data store, it is impossible to simultaneously provide all three of the following guarantees. In essence, a distributed system can only achieve two out of the three properties at any given time.
+
+1. **Consistency**: Every read receives the most recent write or an error.
+2. **Availability**: Every request receives a response, without guarantee that it contains the most recent write.
+3. **Partition Tolerance**: The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes.
+
+
+## Q: Understanding NoSQL Database Types
+
+> For each of the following statements about NoSQL database types, select if the statement is correct.
+
+- [ ] **Key-value stores are optimized for complex queries and transactions.** ❌: `This is incorrect because key-value stores are optimized for simple lookups and do not support complex queries and transactions.`
+- [ ] **Document databases store data in JSON-like documents.** ✅: `This is correct because document databases, such as MongoDB, store data in JSON-like documents, which allows for flexible schemas.`
+- [ ] **Column family databases are designed for storing and managing large volumes of structured data.** ✅: `This is correct because column family databases, such as Apache Cassandra, are designed to handle large volumes of structured data efficiently.`
+- [ ] **Graph databases use nodes and edges to represent and store data.** ✅: `This is correct because graph databases, such as Neo4j, use nodes and edges to represent and store data, making them ideal for analyzing relationships between entities.`
 
 ## Q: Understanding Azure Cosmos DB APIs
 
@@ -57,6 +75,15 @@ Last updated: 2025-01-16
 - [ ] **The Gremlin API is suitable for applications that need to model and traverse complex relationships.** ✅: `This is correct because the Gremlin API is designed for graph data, which is used to model and traverse complex relationships.`
 - [ ] **The Table API is suitable for applications that need a simple, scalable, and cost-effective storage solution.** ✅: `This is correct because the Table API provides key-value storage with a schemaless design, making it suitable for simple, scalable, and cost-effective storage.`
 
+## Q: Understanding CAP Theorem
+
+> For each of the following statements about the CAP theorem, select if the statement is correct.
+
+- [ ] **The CAP theorem states that a distributed database can achieve consistency, availability, and partition tolerance simultaneously.** ❌: `This is incorrect because the CAP theorem states that a distributed database can only achieve two out of the three properties: consistency, availability, and partition tolerance.`
+- [ ] **Consistency in the CAP theorem means that all nodes see the same data at the same time.** ✅: `This is correct because consistency ensures that all nodes in a distributed system see the same data at the same time.`
+- [ ] **Availability in the CAP theorem means that every request receives a response, even if some nodes are down.** ✅: `This is correct because availability ensures that every request receives a response, even if some nodes are down.`
+- [ ] **Partition tolerance in the CAP theorem means that the system continues to operate despite network partitions.** ✅: `This is correct because partition tolerance ensures that the system continues to operate even if there are network partitions.`
+
 ## Q: Understanding Azure Cosmos DB APIs
 
 > For each of the following statements about Azure Cosmos DB APIs, select if the statement is correct.
@@ -65,6 +92,33 @@ Last updated: 2025-01-16
 - [ ] **The Gremlin API supports SQL-like queries to manage JSON documents.** ❌: `This is incorrect because the Gremlin API is used for graph data, not for SQL-like queries to manage JSON documents.`
 - [ ] **The MongoDB API allows you to use existing MongoDB drivers and tools.** ✅: `This is correct because the MongoDB API provides wire protocol compatibility with MongoDB, allowing the use of existing MongoDB drivers and tools.`
 - [ ] **The Table API provides key-value storage with a schemaless design.** ✅: `This is correct because the Table API provides key-value storage with a schemaless design.`
+
+## Q: Understanding NoSQL Data Models
+
+> For each of the following statements about NoSQL data models, select if the statement is correct.
+
+- [ ] **Document databases use a tabular format to store data.** ❌: `This is incorrect because document databases store data in JSON-like documents, not in a tabular format.`
+- [ ] **Key-value stores use a simple key-value pair to store data.** ✅: `This is correct because key-value stores use a simple key-value pair to store data, making them ideal for simple lookups.`
+- [ ] **Column family databases organize data into rows and columns, similar to relational databases.** ✅: `This is correct because column family databases organize data into rows and columns, but they are optimized for large-scale data storage and retrieval.`
+- [ ] **Graph databases are designed to store and analyze relationships between entities.** ✅: `This is correct because graph databases use nodes and edges to represent and store data, making them ideal for analyzing relationships between entities.`
+
+## Q: Understanding NoSQL Use Cases
+
+> For each of the following statements about NoSQL use cases, select if the statement is correct.
+
+- [ ] **Key-value stores are suitable for applications requiring high-speed transactions and real-time analytics.** ❌: `This is incorrect because key-value stores are designed for simple lookups and do not support high-speed transactions and real-time analytics.`
+- [ ] **Column family databases are suitable for applications requiring complex joins and relationships.** ❌: `This is incorrect because column family databases are not designed for complex joins and relationships; they are optimized for large volumes of structured data.`
+- [ ] **Graph databases are suitable for applications requiring the analysis of social networks and recommendation systems.** ✅: `This is correct because graph databases are ideal for analyzing social networks, recommendation systems, and other applications involving complex relationships.`
+- [ ] **Document databases are suitable for applications requiring flexible schemas and semi-structured data.** ✅: `This is correct because document databases provide flexible schemas and are designed to handle semi-structured data.`
+
+## Q: Understanding NoSQL Scalability
+
+> For each of the following statements about NoSQL scalability, select if the statement is correct.
+
+- [ ] **NoSQL databases are limited to vertical scaling by adding more resources to a single server.** ❌: `This is incorrect because NoSQL databases are designed to scale horizontally, not just vertically.`
+- [ ] **NoSQL databases are not suitable for applications requiring high availability and fault tolerance.** ❌: `This is incorrect because NoSQL databases are designed to provide high availability and fault tolerance.`
+- [ ] **NoSQL databases are designed to scale horizontally by adding more servers.** ✅: `This is correct because NoSQL databases are designed to scale horizontally, allowing them to handle large volumes of data by adding more servers.`
+- [ ] **NoSQL databases can handle large volumes of unstructured and semi-structured data.** ✅: `This is correct because NoSQL databases are designed to handle large volumes of unstructured and semi-structured data.`
 
 ## Q: Understanding Azure Cosmos DB APIs
 
