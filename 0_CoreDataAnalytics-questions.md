@@ -665,7 +665,128 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **The process of combining data from different sources to provide a unified view** ✅: `This is correct because data integration involves combining data from different sources to provide a unified view.`
 
 
+## Q: Understanding ETL and ELT Processes
 
+> For each of the following statements about ETL and ELT processes, select Yes if the statement is true. Otherwise, select No.
+
+1. Extract, transform, and load (ETL) can reduce the transfer of sensitive data to destination systems.
+   - [ ] No ❌: `This is incorrect because ETL processes do transform data before loading, which can help reduce the transfer of sensitive data.`
+   - [ ] Yes ✅: `This is correct because ETL processes transform data before loading it into the destination system, which can reduce the transfer of sensitive data.`
+
+2. Extract, load, and transform (ELT) transforms data by using a compute resource independent of the source system and destination system.
+   - [ ] Yes ❌: `This is incorrect because ELT processes typically transform data within the destination system, not using an independent compute resource.`
+   - [ ] No ✅: `This is correct because ELT processes transform data within the destination system, not using an independent compute resource.`
+
+3. Extract, load, and transform (ELT) minimizes the time it takes to copy large volumes of data to destination systems.
+   - [ ] No ❌: `This is incorrect because ELT processes do load data before transforming, which can help minimize the time to copy large volumes of data.`
+   - [ ] Yes ✅: `This is correct because ELT processes load data into the destination system before transforming it, which can minimize the time it takes to copy large volumes of data.`
+
+Sure! Here are the reviewed and corrected versions of the questions:
+
+## Q: Understanding Azure Service Models
+
+> For each of the following statements about Azure service models, select if the statement is correct.
+
+- [ ] **PostgreSQL on Azure VMs is an example of Software as a Service (SaaS).** ❌: `This is incorrect because PostgreSQL on Azure VMs is an example of Infrastructure as a Service (IaaS), not Software as a Service (SaaS).`
+- [ ] **Azure Database for PostgreSQL is an example of Infrastructure as a Service (IaaS).** ❌: `This is incorrect because Azure Database for PostgreSQL is an example of Platform as a Service (PaaS), not Infrastructure as a Service (IaaS).`
+- [ ] **PostgreSQL on Azure VMs is an example of Infrastructure as a Service (IaaS).** ✅: `This is correct because PostgreSQL on Azure VMs runs inside a fully managed virtual machine, which is an example of Infrastructure as a Service (IaaS).`
+- [ ] **Azure Database for PostgreSQL is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure Database for PostgreSQL is a fully managed database service, which is an example of Platform as a Service (PaaS).`
+
+## Q: Understanding Azure Service Models
+
+> For each of the following statements about Azure service models, select if the statement is correct.
+
+- [ ] **Microsoft 365 is an example of Platform as a Service (PaaS).** ❌: `This is incorrect because Microsoft 365 is an example of Software as a Service (SaaS), not Platform as a Service (PaaS).`
+- [ ] **Azure Functions is an example of Software as a Service (SaaS).** ❌: `This is incorrect because Azure Functions is an example of Function as a Service (FaaS), not Software as a Service (SaaS).`
+- [ ] **Azure SQL Database is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure SQL Database is a fully managed database service, which is an example of Platform as a Service (PaaS).`
+- [ ] **Azure Virtual Machines is an example of Infrastructure as a Service (IaaS).** ✅: `This is correct because Azure Virtual Machines provide virtualized computing resources, which is an example of Infrastructure as a Service (IaaS).`
+
+## Q: Understanding Azure Service Models
+
+> For each of the following statements about Azure service models, select if the statement is correct.
+
+- [ ] **Azure Kubernetes Service (AKS) is an example of Infrastructure as a Service (IaaS).** ❌: `This is incorrect because Azure Kubernetes Service (AKS) is an example of Platform as a Service (PaaS), not Infrastructure as a Service (IaaS).`
+- [ ] **Azure Blob Storage is an example of Infrastructure as a Service (IaaS).** ❌: `This is incorrect because Azure Blob Storage is an example of Platform as a Service (PaaS), not Infrastructure as a Service (IaaS).`
+- [ ] **Azure Logic Apps is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure Logic Apps is a fully managed integration service, which is an example of Platform as a Service (PaaS).`
+- [ ] **Azure DevOps is an example of Software as a Service (SaaS).** ✅: `This is correct because Azure DevOps provides development and collaboration tools as a service, which is an example of Software as a Service (SaaS).`
+
+## Q: Understanding Azure Service Models
+
+> For each of the following statements about Azure service models, select if the statement is correct.
+
+- [ ] **Azure SQL Managed Instance is an example of Infrastructure as a Service (IaaS).** ❌: `This is incorrect because Azure SQL Managed Instance is an example of Platform as a Service (PaaS), not Infrastructure as a Service (IaaS).`
+- [ ] **Azure App Service is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure App Service is a fully managed platform for building, deploying, and scaling web apps, which is an example of Platform as a Service (PaaS).`
+- [ ] **Azure Synapse Analytics is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure Synapse Analytics is a fully managed analytics service, which is an example of Platform as a Service (PaaS).`
+- [ ] **Azure Active Directory is an example of Software as a Service (SaaS).** ✅: `This is correct because Azure Active Directory provides identity and access management as a service, which is an example of Software as a Service (SaaS).`
+
+## Q: Understanding Azure Service Models
+
+> For each of the following statements about Azure service models, select if the statement is correct.
+
+- [ ] **Microsoft Teams is an example of Platform as a Service (PaaS).** ❌: `This is incorrect because Microsoft Teams is an example of Software as a Service (SaaS), not Platform as a Service (PaaS).`
+- [ ] **Azure Data Factory is an example of Software as a Service (SaaS).** ❌: `This is incorrect because Azure Data Factory is an example of Platform as a Service (PaaS), not Software as a Service (SaaS).`
+- [ ] **Azure Cosmos DB is an example of Platform as a Service (PaaS).** ✅: `This is correct because Azure Cosmos DB is a fully managed NoSQL database service, which is an example of Platform as a Service (PaaS).`
+- [ ] **Azure Virtual Network is an example of Infrastructure as a Service (IaaS).** ✅: `This is correct because Azure Virtual Network provides networking capabilities, which is an example of Infrastructure as a Service (IaaS).`
+
+## Q: Understanding Azure SQL Managed Instance
+
+> For each of the following statements about Azure SQL Managed Instance, select Yes if the statement is true. Otherwise, select No.
+
+1. Each Azure SQL managed instance supports multiple databases that can be accessed by using cross-database queries.
+   - [ ] Yes ✅: `This is correct because Azure SQL Managed Instance supports multiple databases and allows cross-database queries using external tables.`
+   - [ ] No ❌: `This is incorrect because Azure SQL Managed Instance does support cross-database queries.`
+2. Elastic pools are used to share resources across multiple instances of SQL Server on Azure Virtual Machines.
+   - [ ] Yes ❌: `This is incorrect because elastic pools are used to share resources across multiple databases in Azure SQL Database, not across multiple instances of SQL Server on Azure Virtual Machines.`
+   - [ ] No ✅: `This is correct because elastic pools are used to share resources across multiple databases in Azure SQL Database.`
+3. Azure SQL Database is fully compatible with both on-premises physical instances and virtualized instances of Microsoft SQL Server.
+   - [ ] Yes ❌: `This is incorrect because Azure SQL Database is not fully compatible with all features of on-premises SQL Server instances.`
+   - [ ] No ✅: `This is correct because Azure SQL Database may not support all features available in on-premises SQL Server instances.`
+
+## Q: Understanding Azure SQL Managed Instance
+
+> For each of the following statements about Azure SQL Managed Instance, select Yes if the statement is true. Otherwise, select No.
+
+1. Azure SQL Managed Instance provides near 100% compatibility with the latest SQL Server (Enterprise Edition) database engine.
+   - [ ] Yes ✅: `This is correct because Azure SQL Managed Instance provides near 100% compatibility with the latest SQL Server (Enterprise Edition) database engine.`
+   - [ ] No ❌: `This is incorrect because Azure SQL Managed Instance does provide near 100% compatibility with the latest SQL Server (Enterprise Edition) database engine.`
+
+2. Azure SQL Managed Instance supports SQL Server Agent for scheduling jobs.
+   - [ ] Yes ✅: `This is correct because Azure SQL Managed Instance supports SQL Server Agent for scheduling jobs.`
+   - [ ] No ❌: `This is incorrect because Azure SQL Managed Instance does support SQL Server Agent.`
+
+3. Azure SQL Managed Instance allows for in-database machine learning with R and Python.
+   - [ ] Yes ✅: `This is correct because Azure SQL Managed Instance supports in-database machine learning with R and Python.`
+   - [ ] No ❌: `This is incorrect because Azure SQL Managed Instance does support in-database machine learning with R and Python.`
+
+## Q: Understanding Azure SQL Database
+
+> For each of the following statements about Azure SQL Database, select Yes if the statement is true. Otherwise, select No.
+
+1. Azure SQL Database supports automatic scaling based on workload demand.
+   - [ ] Yes ✅: `This is correct because Azure SQL Database supports automatic scaling based on workload demand.`
+   - [ ] No ❌: `This is incorrect because Azure SQL Database does support automatic scaling.`
+
+2. Azure SQL Database provides built-in high availability and disaster recovery.
+   - [ ] Yes ✅: `This is correct because Azure SQL Database provides built-in high availability and disaster recovery.`
+   - [ ] No ❌: `This is incorrect because Azure SQL Database does provide built-in high availability and disaster recovery.`
+
+3. Azure SQL Database requires manual patching and updates.
+   - [ ] Yes ❌: `This is incorrect because Azure SQL Database handles patching and updates automatically.`
+   - [ ] No ✅: `This is correct because Azure SQL Database does not require manual patching and updates.`
+
+## Q: Understanding Elastic Pools
+
+> For each of the following statements about Elastic Pools in Azure SQL Database, select Yes if the statement is true. Otherwise, select No.
+
+1. Elastic pools allow multiple databases to share a set number of resources.
+   - [ ] Yes ✅: `This is correct because elastic pools allow multiple databases to share a set number of resources.`
+   - [ ] No ❌: `This is incorrect because elastic pools do allow multiple databases to share resources.`
+2. Elastic pools are billed based on the highest eDTU or vCores used by any single database in the pool.
+   - [ ] Yes ❌: `This is incorrect because elastic pools are billed based on the total resources allocated to the pool, not the highest usage by a single database.`
+   - [ ] No ✅: `This is correct because elastic pools are billed based on the total resources allocated to the pool.`
+3. Elastic pools can be used to manage and scale multiple databases with varying and unpredictable usage demands.
+   - [ ] Yes ✅: `This is correct because elastic pools are designed to manage and scale multiple databases with varying and unpredictable usage demands.`
+   - [ ] No ❌: `This is incorrect because elastic pools are intended for managing and scaling databases with varying usage demands.`
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
