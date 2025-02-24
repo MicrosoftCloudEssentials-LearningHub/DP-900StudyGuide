@@ -35,6 +35,61 @@ Last updated: 2025-01-16
 <details>
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
+- [Q1: Understanding Descriptive Analytics](#q1-understanding-descriptive-analytics)
+- [Q2: Understanding Batch Processing](#q2-understanding-batch-processing)
+- [Q3: Understanding Predictive Analytics](#q3-understanding-predictive-analytics)
+- [Q4: Understanding Types of Analytics](#q4-understanding-types-of-analytics)
+- [Q5: Understanding Diagnostic Analytics](#q5-understanding-diagnostic-analytics)
+- [Q6: Understanding Cognitive Analytics](#q6-understanding-cognitive-analytics)
+- [Q7: Understanding Prescriptive Analytics](#q7-understanding-prescriptive-analytics)
+- [Q8: Understanding Types of Analytics](#q8-understanding-types-of-analytics)
+- [Q9: Understanding Database Normalization](#q9-understanding-database-normalization)
+- [Q10: Understanding ETL Process Requirements](#q10-understanding-etl-process-requirements)
+- [Q11: Understanding ELT Process Requirements](#q11-understanding-elt-process-requirements)
+- [Q12: Understanding JSON Structure](#q12-understanding-json-structure)
+- [Q13: Understanding Azure Synapse Analytics MPP Engine](#q13-understanding-azure-synapse-analytics-mpp-engine)
+- [Q14: Understanding Database Types](#q14-understanding-database-types)
+- [Q15: Understanding Database Scalability](#q15-understanding-database-scalability)
+- [Q16: Understanding Database Schema Flexibility](#q16-understanding-database-schema-flexibility)
+- [Q17: Understanding Transaction Support](#q17-understanding-transaction-support)
+- [Q18: Understanding Use Cases](#q18-understanding-use-cases)
+- [Q19: Understanding ELT Process Stages](#q19-understanding-elt-process-stages)
+- [Q20: Understanding ELT Process Stages](#q20-understanding-elt-process-stages)
+- [Q21: Understanding ELT Process Stages](#q21-understanding-elt-process-stages)
+- [Q22: Understanding ELT Process Stages](#q22-understanding-elt-process-stages)
+- [Q23: Understanding ELT Process Stages](#q23-understanding-elt-process-stages)
+- [Q24: Choosing the Right Visualization](#q24-choosing-the-right-visualization)
+- [Q25: Choosing the Right Visualization](#q25-choosing-the-right-visualization)
+- [Q26: Choosing the Right Visualization](#q26-choosing-the-right-visualization)
+- [Q27: Choosing the Right Visualization](#q27-choosing-the-right-visualization)
+- [Q28: Understanding Redundancy Options](#q28-understanding-redundancy-options)
+- [Q29: Understanding Redundancy Options](#q29-understanding-redundancy-options)
+- [Q30: Choosing the Right Visualization](#q30-choosing-the-right-visualization)
+- [Q31: Understanding Redundancy Options](#q31-understanding-redundancy-options)
+- [Q32: Understanding PaaS Database Offerings](#q32-understanding-paas-database-offerings)
+- [Q33: Understanding PaaS and IaaS Database Offerings](#q33-understanding-paas-and-iaas-database-offerings)
+- [Q34: Understanding Azure Resource Manager Templates](#q34-understanding-azure-resource-manager-templates)
+- [Q35: Understanding IaaS Database Offerings](#q35-understanding-iaas-database-offerings)
+- [Q36: Understanding Data Warehousing](#q36-understanding-data-warehousing)
+- [Q37: Understanding Data Lakes](#q37-understanding-data-lakes)
+- [Q38: Understanding ETL Processes](#q38-understanding-etl-processes)
+- [Q39: Understanding Azure Resource Manager Templates](#q39-understanding-azure-resource-manager-templates)
+- [Q40: Understanding Data Governance](#q40-understanding-data-governance)
+- [Q41: Understanding Data Integration](#q41-understanding-data-integration)
+- [Q42: Understanding Azure Resource Manager Templates](#q42-understanding-azure-resource-manager-templates)
+- [Q43: Understanding ETL and ELT Processes](#q43-understanding-etl-and-elt-processes)
+- [Q44: Understanding Azure Service Models](#q44-understanding-azure-service-models)
+- [Q45: Understanding Azure Service Models](#q45-understanding-azure-service-models)
+- [Q46: Understanding Azure Service Models](#q46-understanding-azure-service-models)
+- [Q47: Understanding Azure Resource Manager Templates](#q47-understanding-azure-resource-manager-templates)
+- [Q48: Understanding Azure Service Models](#q48-understanding-azure-service-models)
+- [Q49: Understanding Azure Service Models](#q49-understanding-azure-service-models)
+- [Q50: Understanding Azure SQL Managed Instance](#q50-understanding-azure-sql-managed-instance)
+- [Q51: Understanding Azure Resource Manager Templates](#q51-understanding-azure-resource-manager-templates)
+- [Q52: Understanding Azure SQL Managed Instance](#q52-understanding-azure-sql-managed-instance)
+- [Q53: Understanding Azure SQL Database](#q53-understanding-azure-sql-database)
+- [Q54: Understanding Elastic Pools](#q54-understanding-elastic-pools)
+
 </details>
 
 > [!TIP]
@@ -105,7 +160,6 @@ Last updated: 2025-01-16
 | Azure Elastic SAN         | A cloud-native Storage Area Network (SAN) service that provides end-to-end experience similar to on-premises SANs. |
 | Azure File Sync           | Extends on-premises file servers to Azure, providing centralized file share management and cloud tiering. |
 | Azure Data Box            | A physical device that helps transfer large amounts of data to Azure quickly and securely. Suitable for offline data transfer. |
-
 
 > [!TIP]
 > Redundancy options:
@@ -285,14 +339,13 @@ Non-Relational Databases:
 
 ## Q2: Understanding Batch Processing
 
-> To complete the sentence, choose the correct option from the answer area.
+> To complete the sentence, choose the correct option.
 
 In batch processing:
 - [ ] **data is inserted one record at a time.** ❌: `This is incorrect because batch processing typically involves processing multiple records at once, not one at a time.`
 - [ ] **data is handled immediately as it arrives.** ❌: `This is incorrect because batch processing involves handling data in groups or batches, not in real-time.`
 - [ ] **delays in processing results are acceptable.** ✅: `This is correct because batch processing can tolerate some delay in delivering results, as it processes data in batches rather than immediately.`
 - [ ] **tasks must be executed sequentially.** ❌: `This is incorrect because batch processing can be parallelized to improve efficiency, rather than being limited to sequential execution.`
-
 
 ## Q3: Understanding Predictive Analytics
 
