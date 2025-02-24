@@ -75,7 +75,7 @@ Last updated: 2025-01-16
 | Transaction Control Language (TCL) | Manages transactions to ensure data integrity.                            | `COMMIT`, `ROLLBACK`, `SAVEPOINT` |
 | Data Query Language (DQL)      | Queries and retrieves data from the database.                               | `SELECT`                          |
 
-## Q: Understanding Batch Processing Outputs
+## Q1: Understanding Batch Processing Outputs
 
 > For each of the following statements about batch processing, select Yes if the statement is true. Otherwise, select No.
 
@@ -89,8 +89,7 @@ Last updated: 2025-01-16
    - [ ] No ❌: `This is incorrect because batch processing can indeed output data to a relational database. Relational databases are often used to store processed data for further analysis and reporting.`
    - [ ] Yes ✅: `This is correct because batch processing can output data to relational databases, such as SQL Server or MySQL. Batch jobs can insert, update, or delete records in relational tables as part of the data processing workflow.`
 
-  
-## Q: Understanding SQL Query Types
+## Q2: Understanding SQL Query Types
 
 > For each of the following statements about SQL query types, select if the statement is correct.
 
@@ -98,7 +97,7 @@ Last updated: 2025-01-16
 - [ ] **An INSERT query can add multiple rows to a table in one execution.** ✅: `This is correct because an INSERT query can be used with multiple value sets to add several rows to a table in a single execution.`
 - [ ] **A DELETE query removes all rows from a table without deleting its structure.** ❌: `This is incorrect because a DELETE query removes rows based on a condition but does not remove all rows without deleting the table structure; the TRUNCATE query is used for that purpose.`
 
-## Q: Understanding Database Schemas
+## Q3: Understanding Database Schemas
 
 > To complete the sentence, select the appropriate option.
 
@@ -108,7 +107,7 @@ A star schema:
 - [ ] **is a field in one table that uniquely identifies a row of another table.** ❌: `This is incorrect because this describes a foreign key, not a star schema.`
 - [ ] **is a precompiled collection of SQL statements stored under a name.** ❌: `This is incorrect because this describes a stored procedure, not a star schema.`
 
-## Q: Understanding Database Indexes
+## Q4: Understanding Database Indexes
 
 > To complete the sentence, select the appropriate option.
 
@@ -118,7 +117,7 @@ A non-clustered index:
 - [ ] **is a precompiled collection of SQL statements stored under a name.** ❌: `This is incorrect because this describes a stored procedure, which is a set of SQL statements stored for repeated execution, not a non-clustered index.`
 - [ ] **is an object that creates a separate structure to store the index and includes pointers to the data rows.** ✅: `This is correct because a non-clustered index creates a separate structure that stores the index and includes pointers to the actual data rows in the table.`
 
-## Q: Understanding SQL Server Features
+## Q5: Understanding SQL Server Features
 
 > To complete the sentence, select the appropriate option.
 
@@ -128,7 +127,7 @@ A FileTable:
 - [ ] **is a precompiled collection of SQL statements stored under a name.** ❌: `This is incorrect because this describes a stored procedure, which is used to execute SQL statements as a unit, not a FileTable.`
 - [ ] **is a feature that allows storing files and documents in special tables where each row represents a file or directory.** ✅: `This is correct because a FileTable integrates with the Windows file system to store files and documents in SQL Server tables.`
 
-## Q: Understanding Database Relationships
+## Q6: Understanding Database Relationships
 
 > To complete the sentence, select the appropriate option.
 
@@ -138,7 +137,7 @@ A foreign key:
 - [ ] **is a precompiled collection of SQL statements stored under a name.** ❌: `This is incorrect because this describes a stored procedure, which is used to execute SQL statements as a unit, not a foreign key.`
 - [ ] **is a field in one table that uniquely identifies a row of another table, creating a relationship between the two tables.** ✅: `This is correct because a foreign key ensures referential integrity by linking rows in one table to rows in another table.`
 
-## Q: Understanding Stored Procedures
+## Q7: Understanding Stored Procedures
 
 > To complete the sentence, select the appropriate option.
 
@@ -148,7 +147,7 @@ A stored procedure:
 - [ ] **is a field in one table that uniquely identifies a row of another table.** ❌: `This is incorrect because this describes a foreign key, which establishes relationships between tables, not a stored procedure.`
 - [ ] **is a precompiled collection of SQL statements stored under a name and processed as a unit.** ✅: `This is correct because a stored procedure allows for the execution of a set of SQL statements as a single unit, improving efficiency and reusability.`
 
-## Q: Understanding Data Manipulation Language (DML)
+## Q8: Understanding Data Manipulation Language (DML)
 
 > Which statement is an example of Data Manipulation Language (DML)?
 
@@ -157,7 +156,7 @@ A stored procedure:
 - [ ] **GRANT** ❌: `This is incorrect because GRANT is a Data Control Language (DCL) statement used to provide permissions.`
 - [ ] **INSERT** ✅: `This is correct because INSERT is a Data Manipulation Language (DML) statement used to add new records to a table.`
 
-## Q: Understanding Data Definition Language (DDL)
+## Q9: Understanding Data Definition Language (DDL)
 
 > Which statement is an example of Data Definition Language (DDL)?
 
@@ -166,7 +165,7 @@ A stored procedure:
 - [ ] **COMMIT** ❌: `This is incorrect because COMMIT is a Transaction Control Language (TCL) statement used to save all changes made during the current transaction.`
 - [ ] **CREATE** ✅: `This is correct because CREATE is a Data Definition Language (DDL) statement used to create database objects such as tables, indexes, and schemas.`
 
-## Q: Understanding Data Control Language (DCL)
+## Q10: Understanding Data Control Language (DCL)
 
 > Which statement is an example of Data Control Language (DCL)?
 
@@ -175,7 +174,7 @@ A stored procedure:
 - [ ] **ROLLBACK** ❌: `This is incorrect because ROLLBACK is a Transaction Control Language (TCL) statement used to undo changes made during the current transaction.`
 - [ ] **GRANT** ✅: `This is correct because GRANT is a Data Control Language (DCL) statement used to provide permissions to users.`
 
-## Q: Understanding Database Types
+## Q11: Understanding Database Types
 
 > For each of the following statements about database types, select if the statement is correct.
 
@@ -184,7 +183,7 @@ A stored procedure:
 - [ ] **Document databases are suitable for applications requiring flexible schemas and semi-structured data.** ✅: `This is correct because document databases provide flexible schemas and are designed to handle semi-structured data.`
 - [ ] **Graph databases are suitable for applications requiring the analysis of social networks and recommendation systems.** ✅: `This is correct because graph databases are ideal for analyzing social networks, recommendation systems, and other applications involving complex relationships.`
       
-## Q: Understanding Transaction Control Language (TCL)
+## Q12: Understanding Transaction Control Language (TCL)
 
 > Which statement is an example of Transaction Control Language (TCL)?
 
@@ -193,7 +192,7 @@ A stored procedure:
 - [ ] **SELECT** ❌: `This is incorrect because SELECT is a Data Query Language (DQL) statement used to retrieve data from a database.`
 - [ ] **SAVEPOINT** ✅: `This is correct because SAVEPOINT is a Transaction Control Language (TCL) statement used to set a point within a transaction to which you can later roll back.`
 
-## Q: Understanding Data Query Language (DQL)
+## Q13: Understanding Data Query Language (DQL)
 
 > Which statement is an example of Data Query Language (DQL)?
 
@@ -202,7 +201,7 @@ A stored procedure:
 - [ ] **COMMIT** ❌: `This is incorrect because COMMIT is a Transaction Control Language (TCL) statement used to save all changes made during the current transaction.`
 - [ ] **SELECT** ✅: `This is correct because SELECT is a Data Query Language (DQL) statement used to retrieve data from a database.`
 
-## Q: Understanding Database Concepts
+## Q14: Understanding Database Concepts
 
 > Which database object improves the speed of data retrieval operations on a table by providing quick access to rows?
 
@@ -211,7 +210,7 @@ A stored procedure:
 - [ ] **Table** ❌: `This is incorrect because a table is a database object that stores data in rows and columns, not an object that improves data retrieval speed.`
 - [ ] **Index** ✅: `This is correct because an index is a database object that improves the speed of data retrieval operations on a table by providing quick access to rows.`
 
-## Q: Understanding Database Types
+## Q15: Understanding Database Types
 
 > For each of the following statements about database types, select if the statement is correct.
 
@@ -220,7 +219,7 @@ A stored procedure:
 - [ ] **Document databases are optimized for storing and retrieving semi-structured data.** ✅: `This is correct because document databases are designed to store and retrieve semi-structured data, such as JSON or XML documents.`
 - [ ] **Graph databases are optimized for storing and analyzing relationships between entities.** ✅: `This is correct because graph databases are specifically designed to store and analyze relationships between entities using nodes and edges.`
 
-## Q: Understanding Database Concepts
+## Q16: Understanding Database Concepts
 
 > Which database object is a virtual table based on the result set of an SQL query?
 
@@ -229,7 +228,7 @@ A stored procedure:
 - [ ] **Table** ❌: `This is incorrect because a table is a database object that stores data in rows and columns, not a virtual table.`
 - [ ] **View** ✅: `This is correct because a view is a virtual table based on the result set of an SQL query.`
 
-## Q: Understanding Database Concepts
+## Q17: Understanding Database Concepts
 
 > Which database object returns a single value and is typically used to perform calculations or operations on data?
 
@@ -238,7 +237,7 @@ A stored procedure:
 - [ ] **Table** ❌: `This is incorrect because a table is a database object that stores data in rows and columns, not one that returns a single value.`
 - [ ] **Scalar Function** ✅: `This is correct because a scalar function returns a single value and is typically used to perform calculations or operations on data.`
 
-## Q: Understanding Database Concepts
+## Q18: Understanding Database Concepts
 
 > Which database object stores data in rows and columns, forming the basic structure of a relational database?
 
@@ -247,7 +246,7 @@ A stored procedure:
 - [ ] **Scalar Function** ❌: `This is incorrect because a scalar function returns a single value and is used for calculations or operations on data, not one that stores data in rows and columns.`
 - [ ] **Table** ✅: `This is correct because a table is a database object that stores data in rows and columns, forming the basic structure of a relational database.`
 
-## Q: Understanding Database Types
+## Q19: Understanding Database Types
 
 > For each of the following statements about database types, select if the statement is correct.
 
@@ -256,7 +255,7 @@ A stored procedure:
 - [ ] **Key-value stores natively support the analysis of relationships between entities.** ❌: `This is incorrect because key-value stores are designed for simple lookups and do not natively support the analysis of relationships between entities.`
 - [ ] **Graph databases natively support the analysis of relationships between entities.** ✅: `This is correct because graph databases are specifically designed to store and analyze relationships between entities using nodes and edges.`
 
-## Q: Understanding Aggregate Functions
+## Q20: Understanding Aggregate Functions
 
 > For each of the following statements about aggregate functions, select if the statement is correct.
 
@@ -265,7 +264,7 @@ A stored procedure:
 - [ ] **Aggregate functions are used to perform operations on date and time values.** ❌: `This is incorrect because operations on date and time values are typically done using date functions, not aggregate functions.`
 - [ ] **Aggregate functions perform a calculation on a set of values and return a single value.** ✅: `This is correct because aggregate functions like MAX, MIN, SUM, AVG, and COUNT perform calculations on a set of values and return a single value.`
 
-## Q: Understanding Scalar Functions
+## Q21: Understanding Scalar Functions
 
 > For each of the following statements about scalar functions, select if the statement is correct.
 
@@ -274,7 +273,7 @@ A stored procedure:
 - [ ] **Scalar functions return a single value based on the input value.** ✅: `This is correct because scalar functions like UPPER, LOWER, ROUND, and LEN return a single value based on the input value.`
 - [ ] **Scalar functions can be used to perform operations on string values.** ✅: `This is correct because scalar functions like UPPER and LOWER perform operations on string values.`
 
-## Q: Understanding Date Functions
+## Q22: Understanding Date Functions
 
 > For each of the following statements about date functions, select if the statement is correct.
 
@@ -283,7 +282,7 @@ A stored procedure:
 - [ ] **Date functions perform operations on date and time values and return a date, time, or numeric value.** ✅: `This is correct because date functions like GETDATE, DATEADD, DATEDIFF, and FORMAT perform operations on date and time values and return a date, time, or numeric value.`
 - [ ] **Date functions can be used to calculate the difference between two dates.** ✅: `This is correct because date functions like DATEDIFF can be used to calculate the difference between two dates.`
 
-## Q: Understanding Database Normalization
+## Q23: Understanding Database Normalization
 
 > For each of the following statements about database normalization, select Yes if the statement is true. Otherwise, select No.
 
@@ -296,7 +295,6 @@ A stored procedure:
 3. Normalizing a database results in queries that require more joins.
    - [ ] Yes ✅: `This is correct because normalizing a database often involves splitting data into multiple tables, which can result in queries that require more joins to retrieve related data.`
    - [ ] No ❌: `This is incorrect because normalizing a database often results in queries that require more joins.`
-
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
