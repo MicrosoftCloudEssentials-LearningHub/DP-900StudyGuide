@@ -23,6 +23,8 @@ Last updated: 2025-01-16
 - [Describe core concepts of data modeling](https://learn.microsoft.com/en-us/training/modules/explore-fundamentals-data-visualization/3-data-modeling)
 - [Dedicated SQL pool (formerly SQL DW) architecture in Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/massively-parallel-processing-mpp-architecture)
 - [Extract, transform, and load (ETL)](https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/etl)
+- [Azure Storage redundancy](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy)
+- [Use geo-redundancy to design highly available applications](https://learn.microsoft.com/en-us/azure/storage/common/geo-redundant-design)
 
 </details>
 
@@ -30,6 +32,19 @@ Last updated: 2025-01-16
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
 </details>
+
+
+> [!TIP]
+> Service model: 
+
+| Service Model                | Abbreviation | Description                                                                 | Examples                          |
+|------------------------------|--------------|-----------------------------------------------------------------------------|-----------------------------------|
+| Infrastructure as a Service  | IaaS         | Provides virtualized computing resources over the internet. Users manage operating systems, applications, and middleware. | Microsoft Azure                   |
+| Platform as a Service        | PaaS         | Provides a platform allowing customers to develop, run, and manage applications without dealing with the underlying infrastructure. | Microsoft Azure App Service       |
+| Software as a Service        | SaaS         | Delivers software applications over the internet, on a subscription basis. Users access the software via a web browser. | Microsoft Office 365              |
+| Function as a Service        | FaaS         | Provides a platform for users to develop, run, and manage application functionalities without managing the infrastructure. | Azure Functions                   |
+| Backend as a Service         | BaaS         | Provides backend cloud storage and computing services for mobile and web applications. | Azure Mobile Apps                 |
+| Database as a Service        | DBaaS        | Provides database management and maintenance services over the cloud. | Azure SQL Database                |
 
 > [!TIP]
 > Types and descriptions:
@@ -42,6 +57,33 @@ Last updated: 2025-01-16
 | Predictive        | Uses historical data to `predict future outcomes`. |
 | Real-time         | Analyzes data as it is generated to provide `immediate insights`. |
 | Cognitive         | Uses AI and machine learning to `simulate human` thought processes in data analysis. |
+
+> [!TIP]
+> Types of Storage:
+
+| Storage Option            | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| Azure Blob Storage        | Massively scalable object storage for unstructured data, such as text or binary data. Ideal for cloud-native workloads, archives, data lakes, and high-performance computing. |
+| Azure File Storage        | Provides fully managed file shares in the cloud that are accessible via the SMB protocol. Suitable for replacing or supplementing on-premises file servers. |
+| Azure Disk Storage        | High-performance, durable block storage for Azure virtual machines. Supports both HDD and SSD options. |
+| Azure Data Lake Storage   | Combines the scalability and cost benefits of Azure Blob Storage with a hierarchical file system, optimized for big data analytics workloads. |
+| Azure NetApp Files        | Enterprise-grade file storage service with support for NFS and SMB protocols, providing high performance and advanced data management features. |
+| Azure Archive Storage     | Low-cost storage option for data that is rarely accessed, with high durability and security. Ideal for long-term retention and archival storage. |
+| Azure Managed Disks       | Simplifies disk management for Azure VMs by handling storage account creation and management. Supports both standard and premium disks. |
+| Azure Elastic SAN         | A cloud-native Storage Area Network (SAN) service that provides end-to-end experience similar to on-premises SANs. |
+| Azure File Sync           | Extends on-premises file servers to Azure, providing centralized file share management and cloud tiering. |
+| Azure Data Box            | A physical device that helps transfer large amounts of data to Azure quickly and securely. Suitable for offline data transfer. |
+
+
+> [!TIP]
+> Redundancy options:
+
+| Storage Option                        | Abbreviation | Description                                                                 |
+|---------------------------------------|--------------|-----------------------------------------------------------------------------|
+| Zone-Redundant Storage                | ZRS          | Replicates data synchronously across three Azure availability zones in the primary region, providing high availability and durability. |
+| Read-Access Geo-Redundant Storage     | RA-GRS       | Replicates data to a secondary region asynchronously, allowing read access to the replicated data in the secondary region during an outage in the primary region. |
+| Locally-Redundant Storage             | LRS          | Replicates data synchronously within a single data center in the primary region, offering a lower-cost option with moderate availability and durability. |
+| Geo-Redundant Storage                 | GRS          | Replicates data to a secondary region asynchronously, providing protection against regional outages but without read access to the secondary region unless a failover occurs. |
 
 > [!TIP]
 > Data Schema and Terms:
@@ -106,6 +148,40 @@ Last updated: 2025-01-16
 <div align="center">
   <img src="https://github.com/user-attachments/assets/a0cf4ab0-3cb9-439d-be45-8525567240e4" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 4px; padding: 4px; width: 500px; height: auto;"/>
 </div>
+
+> [!TIP]
+> Visualization type:
+
+| Visualization Type | Description |
+|--------------------|-------------|
+| Area Chart | Displays quantitative data over time, emphasizing the magnitude of change. |
+| Bar Chart | Represents data with rectangular bars, useful for comparing different categories. |
+| Column Chart | Similar to bar charts but with vertical bars, ideal for showing data changes over time. |
+| Line Chart | Shows trends over time by connecting data points with a continuous line. |
+| Pie Chart | Represents data as slices of a pie, showing proportions of a whole. |
+| Donut Chart | Similar to pie charts but with a hole in the center, useful for showing proportions. |
+| Scatter Chart | Uses dots to represent values for two different numeric variables, showing the relationship between them. |
+| Treemap | Displays hierarchical data as nested rectangles, useful for showing proportions within a hierarchy. |
+| Key Influencer | Identifies key factors influencing a particular metric or outcome. |
+| Waterfall Chart | Visualizes the cumulative effect of sequential positive and negative values. |
+| Funnel Chart | Shows a process that has stages, with the values decreasing progressively. |
+| Gauge Chart | Displays a single value within a range, often used for KPIs. |
+| Map | Visualizes data geographically, useful for showing spatial distributions. |
+| Matrix | Similar to a table but with the ability to display data in a pivot format. |
+| Card | Displays a single fact or data point, often used for KPIs. |
+| Multi-row Card | Displays multiple data points, one per row. |
+| Combo Chart | Combines a column chart and a line chart to compare multiple measures. |
+| Decomposition Tree | Visualizes data across multiple dimensions, allowing for drill-down analysis. |
+| Histogram | Represents the distribution of numerical data, showing the frequency of data intervals. |
+| Slicer | Provides a way to filter data in reports, making it easier to focus on specific data points. |
+| KPI | Displays key performance indicators, showing progress towards a goal. |
+| Ribbon Chart | Shows data over time, highlighting the ranking of different categories. |
+| Stacked Bar Chart | Similar to bar charts but with segments stacked on top of each other, showing the contribution of each segment to the total. |
+| Stacked Column Chart | Similar to column charts but with segments stacked on top of each other, showing the contribution of each segment to the total. |
+| Bubble Chart | Similar to scatter charts but with an additional dimension represented by the size of the bubbles. |
+| Heat Map | Uses color to represent data values, useful for showing data density or intensity. |
+| Bullet Chart | Displays performance against a target, often used for KPIs. |
+| Sparkline | A small, simple chart that provides a compact visual representation of data trends. |
 
 
 > [!TIP]
@@ -407,6 +483,80 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 - [ ] **Extract** ❌: `This is incorrect because the extract stage involves pulling data from the source system.`
 - [ ] **Load** ❌: `This is incorrect because the load stage involves moving data to the target data store.`
 - [ ] **Transform** ✅: `This is correct because the transform stage typically occurs within the data warehouse after the data has been loaded.`
+
+
+## Q: Choosing the Right Visualization
+
+> You need to display the sales trends over the past year to identify seasonal patterns. Which type of visualization should you use?
+
+- [ ] **Pie Chart** ❌: `This is incorrect because pie charts are used to show proportions of a whole, not trends over time.`
+- [ ] **Scatter Chart** ❌: `This is incorrect because scatter charts are used to show the relationship between two numeric variables, not trends over time.`
+- [ ] **Treemap** ❌: `This is incorrect because treemaps are used to show proportions within a hierarchy, not trends over time.`
+- [ ] **Line Chart** ✅: `This is correct because line charts are ideal for showing trends over time by connecting data points with a continuous line.`
+
+## Q: Choosing the Right Visualization
+
+> You need to show the distribution of customer ages in your database. Which type of visualization should you use?
+
+- [ ] **Pie Chart** ❌: `This is incorrect because pie charts are used to show proportions of a whole, not distributions of numerical data.`
+- [ ] **Line Chart** ❌: `This is incorrect because line charts are used to show trends over time, not distributions of numerical data.`
+- [ ] **Gauge Chart** ❌: `This is incorrect because gauge charts are used to display a single value within a range, not distributions of numerical data.`
+- [ ] **Histogram** ✅: `This is correct because histograms are used to represent the distribution of numerical data, showing the frequency of data intervals.`
+
+## Q: Choosing the Right Visualization
+
+> You need to identify the key factors influencing customer satisfaction scores. Which type of visualization should you use?
+
+- [ ] **Pie Chart** ❌: `This is incorrect because pie charts are used to show proportions of a whole, not to identify key factors influencing a metric.`
+- [ ] **Line Chart** ❌: `This is incorrect because line charts are used to show trends over time, not to identify key factors influencing a metric.`
+- [ ] **Gauge Chart** ❌: `This is incorrect because gauge charts are used to display a single value within a range, not to identify key factors influencing a metric.`
+- [ ] **Key Influencer** ✅: `This is correct because key influencer visualizations help identify the key factors influencing a particular metric or outcome, such as customer satisfaction scores.`
+
+## Q: Choosing the Right Visualization
+
+> You want to visualize the hierarchical structure of your company's departments and sub-departments. Which type of visualization should you use?
+
+- [ ] **Pie Chart** ❌: `This is incorrect because pie charts are used to show proportions of a whole, not hierarchical structures.`
+- [ ] **Line Chart** ❌: `This is incorrect because line charts are used to show trends over time, not hierarchical structures.`
+- [ ] **Scatter Chart** ❌: `This is incorrect because scatter charts are used to show the relationship between two numeric variables, not hierarchical structures.`
+- [ ] **Treemap** ✅: `This is correct because treemaps are used to display hierarchical data as nested rectangles, showing proportions within a hierarchy.`
+
+
+## Q: Understanding Redundancy Options
+
+> Which Azure storage option replicates data synchronously across three Azure availability zones in the primary region?
+
+- [ ] **Locally-Redundant Storage (LRS)** ❌: `This is incorrect because LRS replicates data within a single data center in the primary region, not across multiple availability zones.`
+- [ ] **Geo-Redundant Storage (GRS)** ❌: `This is incorrect because GRS replicates data to a secondary region asynchronously, not across multiple availability zones in the primary region.`
+- [ ] **Read-Access Geo-Redundant Storage (RA-GRS)** ❌: `This is incorrect because RA-GRS replicates data to a secondary region asynchronously, not across multiple availability zones in the primary region.`
+- [ ] **Zone-Redundant Storage (ZRS)** ✅: `This is correct because ZRS replicates data synchronously across three Azure availability zones in the primary region, providing high availability and durability.`
+
+## Q: Understanding Redundancy Options
+
+> Which Azure storage option allows read access to the replicated data in the secondary region during an outage in the primary region?
+
+- [ ] **Locally-Redundant Storage (LRS)** ❌: `This is incorrect because LRS does not replicate data to a secondary region and does not provide read access during an outage.`
+- [ ] **Geo-Redundant Storage (GRS)** ❌: `This is incorrect because GRS replicates data to a secondary region but does not provide read access to the replicated data unless a failover occurs.`
+- [ ] **Zone-Redundant Storage (ZRS)** ❌: `This is incorrect because ZRS replicates data across availability zones in the primary region, not to a secondary region.`
+- [ ] **Read-Access Geo-Redundant Storage (RA-GRS)** ✅: `This is correct because RA-GRS replicates data to a secondary region asynchronously and allows read access to the replicated data in the secondary region during an outage in the primary region.`
+
+## Q: Choosing the Right Visualization
+
+> You want to compare the sales performance of different product categories. Which type of visualization should you use?
+
+- [ ] **Line Chart** ❌: `This is incorrect because line charts are used to show trends over time, not comparisons between categories.`
+- [ ] **Gauge Chart** ❌: `This is incorrect because gauge charts are used to display a single value within a range, often for KPIs, not for comparing categories.`
+- [ ] **Map** ❌: `This is incorrect because maps are used to visualize data geographically, not for comparing categories.`
+- [ ] **Bar Chart** ✅: `This is correct because bar charts are useful for comparing different categories by representing data with rectangular bars.`
+
+## Q: Understanding Redundancy Options
+
+> Which Azure storage option replicates data synchronously within a single data center in the primary region?
+
+- [ ] **Geo-Redundant Storage (GRS)** ❌: `This is incorrect because GRS replicates data to a secondary region asynchronously, not within a single data center.`
+- [ ] **Zone-Redundant Storage (ZRS)** ❌: `This is incorrect because ZRS replicates data synchronously across multiple availability zones in the primary region, not within a single data center.`
+- [ ] **Read-Access Geo-Redundant Storage (RA-GRS)** ❌: `This is incorrect because RA-GRS replicates data to a secondary region asynchronously, not within a single data center.`
+- [ ] **Locally-Redundant Storage (LRS)** ✅: `This is correct because LRS replicates data synchronously within a single data center in the primary region, offering a lower-cost option with moderate availability and durability.`
 
 
 
