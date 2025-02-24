@@ -48,7 +48,7 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 3. **Partition Tolerance**: The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes.
 
 
-## Q: Understanding NoSQL Database Types
+## Q1: Understanding NoSQL Database Types
 
 > For each of the following statements about NoSQL database types, select if the statement is correct.
 
@@ -57,7 +57,7 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **Column family databases are designed for storing and managing large volumes of structured data.** ✅: `This is correct because column family databases, such as Apache Cassandra, are designed to handle large volumes of structured data efficiently.`
 - [ ] **Graph databases use nodes and edges to represent and store data.** ✅: `This is correct because graph databases, such as Neo4j, use nodes and edges to represent and store data, making them ideal for analyzing relationships between entities.`
 
-## Q: Understanding Azure Cosmos DB APIs
+## Q2: Understanding Azure Cosmos DB APIs
 
 > For each of the following statements about Azure Cosmos DB APIs, select if the statement is correct.
 
@@ -66,7 +66,7 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **The Gremlin API is used to store and query graph data with vertices and edges.** ✅: `This is correct because the Gremlin API is based on Apache TinkerPop and is used to store and query graph data with vertices and edges.`
 - [ ] **The MongoDB API provides wire protocol compatibility with MongoDB.** ✅: `This is correct because the MongoDB API provides wire protocol compatibility with MongoDB, allowing you to use existing MongoDB drivers and tools.`
 
-## Q: Understanding Azure Cosmos DB APIs
+## Q3: Understanding Azure Cosmos DB APIs
 
 > For each of the following statements about Azure Cosmos DB APIs, select if the statement is correct.
 
@@ -75,7 +75,7 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **The Gremlin API is suitable for applications that need to model and traverse complex relationships.** ✅: `This is correct because the Gremlin API is designed for graph data, which is used to model and traverse complex relationships.`
 - [ ] **The Table API is suitable for applications that need a simple, scalable, and cost-effective storage solution.** ✅: `This is correct because the Table API provides key-value storage with a schemaless design, making it suitable for simple, scalable, and cost-effective storage.`
 
-## Q: Understanding CAP Theorem
+## Q4: Understanding CAP Theorem
 
 > For each of the following statements about the CAP theorem, select if the statement is correct.
 
@@ -84,7 +84,7 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **Availability in the CAP theorem means that every request receives a response, even if some nodes are down.** ✅: `This is correct because availability ensures that every request receives a response, even if some nodes are down.`
 - [ ] **Partition tolerance in the CAP theorem means that the system continues to operate despite network partitions.** ✅: `This is correct because partition tolerance ensures that the system continues to operate even if there are network partitions.`
 
-## Q: Understanding Azure Cosmos DB APIs
+## Q5: Understanding Azure Cosmos DB APIs
 
 > For each of the following statements about Azure Cosmos DB APIs, select if the statement is correct.
 
@@ -93,7 +93,7 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **The MongoDB API allows you to use existing MongoDB drivers and tools.** ✅: `This is correct because the MongoDB API provides wire protocol compatibility with MongoDB, allowing the use of existing MongoDB drivers and tools.`
 - [ ] **The Table API provides key-value storage with a schemaless design.** ✅: `This is correct because the Table API provides key-value storage with a schemaless design.`
 
-## Q: Understanding NoSQL Data Models
+## Q6: Understanding NoSQL Data Models
 
 > For each of the following statements about NoSQL data models, select if the statement is correct.
 
@@ -102,7 +102,7 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **Column family databases organize data into rows and columns, similar to relational databases.** ✅: `This is correct because column family databases organize data into rows and columns, but they are optimized for large-scale data storage and retrieval.`
 - [ ] **Graph databases are designed to store and analyze relationships between entities.** ✅: `This is correct because graph databases use nodes and edges to represent and store data, making them ideal for analyzing relationships between entities.`
 
-## Q: Understanding NoSQL Use Cases
+## Q7: Understanding NoSQL Use Cases
 
 > For each of the following statements about NoSQL use cases, select if the statement is correct.
 
@@ -111,7 +111,7 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **Graph databases are suitable for applications requiring the analysis of social networks and recommendation systems.** ✅: `This is correct because graph databases are ideal for analyzing social networks, recommendation systems, and other applications involving complex relationships.`
 - [ ] **Document databases are suitable for applications requiring flexible schemas and semi-structured data.** ✅: `This is correct because document databases provide flexible schemas and are designed to handle semi-structured data.`
 
-## Q: Understanding NoSQL Scalability
+## Q8: Understanding NoSQL Scalability
 
 > For each of the following statements about NoSQL scalability, select if the statement is correct.
 
@@ -120,7 +120,7 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **NoSQL databases are designed to scale horizontally by adding more servers.** ✅: `This is correct because NoSQL databases are designed to scale horizontally, allowing them to handle large volumes of data by adding more servers.`
 - [ ] **NoSQL databases can handle large volumes of unstructured and semi-structured data.** ✅: `This is correct because NoSQL databases are designed to handle large volumes of unstructured and semi-structured data.`
 
-## Q: Understanding Azure Cosmos DB APIs
+## Q9: Understanding Azure Cosmos DB APIs
 
 > For each of the following statements about Azure Cosmos DB APIs, select if the statement is correct.
 
@@ -129,7 +129,7 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **The MongoDB API is ideal for applications already using MongoDB.** ✅: `This is correct because the MongoDB API provides wire protocol compatibility with MongoDB, making it ideal for applications already using MongoDB.`
 - [ ] **The Table API is compatible with Azure Table Storage.** ✅: `This is correct because the Table API provides key-value storage with a schemaless design and is compatible with Azure Table Storage.`
 
-## Q: Understanding Azure Cosmos DB APIs
+## Q10: Understanding Azure Cosmos DB APIs
 
 > For each of the following statements about Azure Cosmos DB APIs, select if the statement is correct.
 
@@ -137,7 +137,6 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **The MongoDB API is not suitable for applications already using MongoDB.** ❌: `This is incorrect because the MongoDB API provides wire protocol compatibility with MongoDB, making it suitable for applications already using MongoDB.`
 - [ ] **The Table API provides key-value storage with a schemaless design, suitable for simple, scalable, and cost-effective storage.** ✅: `This is correct because the Table API provides key-value storage with a schemaless design, making it suitable for simple, scalable, and cost-effective storage.`
 - [ ] **The Gremlin API is based on Apache TinkerPop and is used to store and query graph data.** ✅: `This is correct because the Gremlin API is based on Apache TinkerPop and is used to store and query graph data.`
-
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
