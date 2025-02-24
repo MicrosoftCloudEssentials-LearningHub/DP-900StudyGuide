@@ -37,6 +37,17 @@ Last updated: 2025-01-16
 | Foreign Key        | A field (or collection of fields) in one table that uniquely identifies a row of another table, creating a relationship between the two tables. It ensures referential integrity within the database. |
 | Stored Procedure   | A precompiled collection of one or more SQL statements stored under a name and processed as a unit, which can be executed with parameters to perform specific tasks within the database. |
 
+> [!TIP]
+> SQL Language types:
+
+| SQL Language Type            | Description                                                                 | Examples                          |
+|------------------------------|-----------------------------------------------------------------------------|-----------------------------------|
+| Data Definition Language (DDL) | Defines and manages database structures.                                    | `CREATE`, `ALTER`, `DROP`, `TRUNCATE` |
+| Data Manipulation Language (DML) | Manipulates data within existing database structures.                      | `INSERT`, `UPDATE`, `DELETE`, `MERGE` |
+| Data Control Language (DCL)    | Controls access to data within the database.                                | `GRANT`, `REVOKE`                 |
+| Transaction Control Language (TCL) | Manages transactions to ensure data integrity.                            | `COMMIT`, `ROLLBACK`, `SAVEPOINT` |
+| Data Query Language (DQL)      | Queries and retrieves data from the database.                               | `SELECT`                          |
+
 ## Q: Understanding Batch Processing Outputs
 
 > For each of the following statements about batch processing, select Yes if the statement is true. Otherwise, select No.
@@ -109,6 +120,88 @@ A stored procedure:
 - [ ] **is a feature that allows storing files and documents in special tables where each row represents a file or directory.** ❌: `This is incorrect because this describes a FileTable, which is used for file storage, not a stored procedure.`
 - [ ] **is a field in one table that uniquely identifies a row of another table.** ❌: `This is incorrect because this describes a foreign key, which establishes relationships between tables, not a stored procedure.`
 - [ ] **is a precompiled collection of SQL statements stored under a name and processed as a unit.** ✅: `This is correct because a stored procedure allows for the execution of a set of SQL statements as a single unit, improving efficiency and reusability.`
+
+## Q: Understanding Data Manipulation Language (DML)
+
+> Which statement is an example of Data Manipulation Language (DML)?
+
+- [ ] **REVOKE** ❌: `This is incorrect because REVOKE is a Data Control Language (DCL) statement used to remove permissions.`
+- [ ] **DISABLE** ❌: `This is incorrect because DISABLE is not a standard SQL statement.`
+- [ ] **GRANT** ❌: `This is incorrect because GRANT is a Data Control Language (DCL) statement used to provide permissions.`
+- [ ] **INSERT** ✅: `This is correct because INSERT is a Data Manipulation Language (DML) statement used to add new records to a table.`
+
+## Q: Understanding Data Definition Language (DDL)
+
+> Which statement is an example of Data Definition Language (DDL)?
+
+- [ ] **SELECT** ❌: `This is incorrect because SELECT is a Data Query Language (DQL) statement used to retrieve data from a database.`
+- [ ] **UPDATE** ❌: `This is incorrect because UPDATE is a Data Manipulation Language (DML) statement used to modify existing records in a table.`
+- [ ] **COMMIT** ❌: `This is incorrect because COMMIT is a Transaction Control Language (TCL) statement used to save all changes made during the current transaction.`
+- [ ] **CREATE** ✅: `This is correct because CREATE is a Data Definition Language (DDL) statement used to create database objects such as tables, indexes, and schemas.`
+
+
+## Q: Understanding Data Control Language (DCL)
+
+> Which statement is an example of Data Control Language (DCL)?
+
+- [ ] **INSERT** ❌: `This is incorrect because INSERT is a Data Manipulation Language (DML) statement used to add new records to a table.`
+- [ ] **ALTER** ❌: `This is incorrect because ALTER is a Data Definition Language (DDL) statement used to modify existing database objects.`
+- [ ] **ROLLBACK** ❌: `This is incorrect because ROLLBACK is a Transaction Control Language (TCL) statement used to undo changes made during the current transaction.`
+- [ ] **GRANT** ✅: `This is correct because GRANT is a Data Control Language (DCL) statement used to provide permissions to users.`
+
+## Q: Understanding Transaction Control Language (TCL)
+
+> Which statement is an example of Transaction Control Language (TCL)?
+
+- [ ] **DELETE** ❌: `This is incorrect because DELETE is a Data Manipulation Language (DML) statement used to remove records from a table.`
+- [ ] **DROP** ❌: `This is incorrect because DROP is a Data Definition Language (DDL) statement used to delete database objects.`
+- [ ] **SELECT** ❌: `This is incorrect because SELECT is a Data Query Language (DQL) statement used to retrieve data from a database.`
+- [ ] **SAVEPOINT** ✅: `This is correct because SAVEPOINT is a Transaction Control Language (TCL) statement used to set a point within a transaction to which you can later roll back.`
+
+## Q: Understanding Data Query Language (DQL)
+
+> Which statement is an example of Data Query Language (DQL)?
+
+- [ ] **UPDATE** ❌: `This is incorrect because UPDATE is a Data Manipulation Language (DML) statement used to modify existing records in a table.`
+- [ ] **TRUNCATE** ❌: `This is incorrect because TRUNCATE is a Data Definition Language (DDL) statement used to remove all records from a table without logging individual row deletions.`
+- [ ] **COMMIT** ❌: `This is incorrect because COMMIT is a Transaction Control Language (TCL) statement used to save all changes made during the current transaction.`
+- [ ] **SELECT** ✅: `This is correct because SELECT is a Data Query Language (DQL) statement used to retrieve data from a database.`
+
+## Q: Understanding Database Concepts
+
+> Which database object improves the speed of data retrieval operations on a table by providing quick access to rows?
+
+- [ ] **View** ❌: `This is incorrect because a view is a virtual table based on the result set of an SQL query, not an object that improves data retrieval speed.`
+- [ ] **Scalar Function** ❌: `This is incorrect because a scalar function returns a single value and is used for calculations or operations on data, not for improving data retrieval speed.`
+- [ ] **Table** ❌: `This is incorrect because a table is a database object that stores data in rows and columns, not an object that improves data retrieval speed.`
+- [ ] **Index** ✅: `This is correct because an index is a database object that improves the speed of data retrieval operations on a table by providing quick access to rows.`
+
+## Q: Understanding Database Concepts
+
+> Which database object is a virtual table based on the result set of an SQL query?
+
+- [ ] **Index** ❌: `This is incorrect because an index is a database object that improves data retrieval speed, not a virtual table.`
+- [ ] **Scalar Function** ❌: `This is incorrect because a scalar function returns a single value and is used for calculations or operations on data, not a virtual table.`
+- [ ] **Table** ❌: `This is incorrect because a table is a database object that stores data in rows and columns, not a virtual table.`
+- [ ] **View** ✅: `This is correct because a view is a virtual table based on the result set of an SQL query.`
+
+## Q: Understanding Database Concepts
+
+> Which database object returns a single value and is typically used to perform calculations or operations on data?
+
+- [ ] **Index** ❌: `This is incorrect because an index is a database object that improves data retrieval speed, not one that returns a single value.`
+- [ ] **View** ❌: `This is incorrect because a view is a virtual table based on the result set of an SQL query, not an object that returns a single value.`
+- [ ] **Table** ❌: `This is incorrect because a table is a database object that stores data in rows and columns, not one that returns a single value.`
+- [ ] **Scalar Function** ✅: `This is correct because a scalar function returns a single value and is typically used to perform calculations or operations on data.`
+
+## Q: Understanding Database Concepts
+
+> Which database object stores data in rows and columns, forming the basic structure of a relational database?
+
+- [ ] **Index** ❌: `This is incorrect because an index is a database object that improves data retrieval speed, not one that stores data in rows and columns.`
+- [ ] **View** ❌: `This is incorrect because a view is a virtual table based on the result set of an SQL query, not one that stores data in rows and columns.`
+- [ ] **Scalar Function** ❌: `This is incorrect because a scalar function returns a single value and is used for calculations or operations on data, not one that stores data in rows and columns.`
+- [ ] **Table** ✅: `This is correct because a table is a database object that stores data in rows and columns, forming the basic structure of a relational database.`
 
 
 <div align="center">
