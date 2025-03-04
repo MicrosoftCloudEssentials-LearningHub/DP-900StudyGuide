@@ -15,8 +15,8 @@ Last updated: 2025-01-16
 ## Content
 
 - [Core Data Concepts and Analytics Workload on Azure](./0_CoreDataAnalytics-questions.md)
-- [Relational Data on Azure](./1_RelationalData.md)
-- [Non-Relational Data on Azure](./2_nonRelationalData.md)
+- [Relational Data on Azure](./1_RelationalData-questions.md)
+- [Non-Relational Data on Azure](./2_nonRelationalData-questions.md)
 
 ## Skills measured
 
