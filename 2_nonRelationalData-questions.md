@@ -149,7 +149,9 @@ The CAP theorem, also known as Brewer's theorem, states that in a distributed da
 - [ ] **The Table API provides key-value storage with a schemaless design, suitable for simple, scalable, and cost-effective storage.** ✅: `This is correct because the Table API provides key-value storage with a schemaless design, making it suitable for simple, scalable, and cost-effective storage.`
 - [ ] **The Gremlin API is based on Apache TinkerPop and is used to store and query graph data.** ✅: `This is correct because the Gremlin API is based on Apache TinkerPop and is used to store and query graph data.`
 
+<!-- START BADGE -->
 <div align="center">
-  <h3 style="color: #4CAF50;">Total Visitors</h3>
-  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+  <img src="https://img.shields.io/badge/Total%20views-268-limegreen" alt="Total views">
+  <p>Refresh Date: 2025-07-16</p>
 </div>
+<!-- END BADGE -->
