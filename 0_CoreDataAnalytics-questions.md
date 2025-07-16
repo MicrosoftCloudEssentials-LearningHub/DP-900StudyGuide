@@ -924,7 +924,9 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
    - [ ] Yes ✅: `This is correct because elastic pools are designed to manage and scale multiple databases with varying and unpredictable usage demands.`
    - [ ] No ❌: `This is incorrect because elastic pools are intended for managing and scaling databases with varying usage demands.`
 
+<!-- START BADGE -->
 <div align="center">
-  <h3 style="color: #4CAF50;">Total Visitors</h3>
-  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+  <img src="https://img.shields.io/badge/Total%20views-268-limegreen" alt="Total views">
+  <p>Refresh Date: 2025-07-16</p>
 </div>
+<!-- END BADGE -->
