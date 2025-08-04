@@ -927,6 +927,6 @@ The massively parallel processing (MPP) engine of Azure Synapse Analytics:
 <!-- START BADGE -->
 <div align="center">
   <img src="https://img.shields.io/badge/Total%20views-1327-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-08-01</p>
+  <p>Refresh Date: 2025-08-04</p>
 </div>
 <!-- END BADGE -->
